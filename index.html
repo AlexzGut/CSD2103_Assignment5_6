@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <p> Hello, this is Computer Programmer Group 1 Ontario Provincial Police, we are here because you violates the law number
+        <span id="transit-item"></span>: <span id="offence"></span>, stated in the <span id="trafic-act-section"></span>'s Traffic Act 
+        section.</p>
+    <label for="name">Name: </label>
+    <input type="text" id="name" name="name" required>
+    <label for="lnumber">License number: </label>
+    <input type="text" id="lnumber" name="lnumber" pattern="[A-Za-z]{1}[0-9]{4}-[0-9]{5}-[0-9]{5}" required>
+    <!-- Add a feature that let's the user to see what the pattern is once they put the cursor on the input field-->
+    <button type="button" onclick="submitButton()">Submit information</button>
+    <!-- After this, we can add a feature on Jquery that loads the a paragraph saying if driver license is valid or not, then after X secs -->
+</body>
+</html>
