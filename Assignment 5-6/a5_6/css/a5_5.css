@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.17em;
+    font-weight: 500;
+    font-family: "Titillium Web", sans-serif;
+    background-color: whitesmoke;
+}
+
+#offence_desc span {
+    display: none;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    margin-right: 0.2em;
+}
+
+input {
+    width: 50%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
+    outline: none;
+    color: rgb(129, 129, 129);
+    margin-bottom: 1.5em;
+}
+
+input+span {
+    color: red;
+    margin-left: 0.5em;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+}
+
+#info_validity {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+#info_validity div {
+    height: 40px;
+    width: 0;
+    text-wrap: nowrap;
+    overflow: visible !important;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    padding: 0 1.5em;
+    align-items: center;
+}
+
+div p {
+    color: whitesmoke;
+    display: none;
+}
+
+img {
+    width: 0px;
+}
+
+#btn_validate,
+#new_offence {
+    appearance: button;
+    background-color: #000;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: #fff 4px 4px 0 0, #000 4px 4px 0 1px;
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+
+#btn_validate:active,
+#new_offence {
+    box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+    transform: translate(2px, 2px);
+}
+
+#btn_validate:disabled,
+#new_offence:disabled {
+    background-color: rgb(172, 171, 171);
+}
+
+#outputWrapper {
+    display: none;
+    max-width: 500px;
+    margin: auto;
+}
+
+#outputWrapper label {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    margin-bottom: 0.5em;
+}

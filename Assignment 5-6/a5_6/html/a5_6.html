@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/a5_5.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
+        integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
+    <script src="../js/a5_6.js"></script>
+    <title>Assignment 5 -6</title>
+</head>
+
+<body>
+    <p id="offence_desc"></p>
+    <form action="">
+        <label for="driver_name">Driver's Name:</label>
+        <input type="text" name="driver_name" id="driver_name"><span id="driver_name_error">*</span><br>
+        <label for="driver_license">License Number:</label>
+        <input type="text" name="driver_license" id="driver_license"><span id="driver_license_error">*</span><br>
+        <label for="">&nbsp;</label>
+        <input type="button" id="btn_validate" value="Validate">
+    </form>
+    <div id="info_validity">
+        <div>
+            <p>Validity of driver's license</p><img class="val_img" src="" alt="">
+        </div>
+        <div>
+            <p>Validity of driver's permit</p><img class="val_img" src="" alt="">
+        </div>
+        <div>
+            <p>Validity of driver's insurance</p><img class="val_img" src="" alt="">
+        </div>
+        <div>
+            <p>Was the driver wearing the seat belt?</p><img class="val_img" src="" alt="">
+        </div>
+    </div>
+    <div id="outputWrapper">
+        <label><b>Date: </b></label><label id="date"></label><br>
+        <label><b>Ticket Number: </b></label><label id="ticket_number"></label><br>
+        <label><b>Driver's Name: </b></label><label id="driver_name_output"></label><br>
+        <label><b>Driver's License: </b></label><label id="driver_license_output"></label>
+        <label><b>Fines Total/Appointment: </b></label><label id="fines_total_output"></label>
+        <button id="new_offence">Process New Offence</button>
+    </div>
+
+
+</body>
+
+</html>
