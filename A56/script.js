@@ -911,9 +911,10 @@ const driverPermitValid = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const driverInsuranceValid = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const seatBelt = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 
+const row = offences[Math.floor(Math.random()*offences.length) ];
+
 $(document).ready(function() {
     console.log("...");
-    const row = offences[Math.floor(Math.random()*offences.length) ];
     $("#transit-item").text(row.item);
     $("#offence").text(row.offense);
     $("#trafic-act-section").text(row.section);
@@ -922,16 +923,54 @@ $(document).ready(function() {
 
 function submitButton() {
     
-    if (!$("#driver-license")[0]) {
-        $("body").append(`<p id="driver-license" style="display:none"> Driver license : ${driverLicenseValid ? "Valid" : "No valid"}</p>`);
-        $("body").append(`<p id="driver-permit" style="display:none"> Driver permit : ${driverPermitValid ? "Valid" : "No valid"}</p>`);
+    if (!$("#driver-license")[0] & $("#name").val() != "" & $("#lnumber").val().length == 15) {
+        $("body").append(`<p id="driver-license" style="display:none"> Driver license : ${driverLicenseValid ? "Valid" : "Not valid"}</p>`);
+        $("body").append(`<p id="driver-permit" style="display:none"> Driver permit : ${driverPermitValid ? "Valid" : "Not valid"}</p>`);
         $("body").append(`<p id="driver-insurance" style="display:none"> Driver insurance : ${driverInsuranceValid ? "Valid" : "No valid"}</p>`);
         $("body").append(`<p id="seat-belt" style="display:none"> Seat Belt : ${seatBelt ? "Fasten" : "Unfasten"}</p>`);
+        $("body").append(`<button id="print-ticket" style="display:none" onclick="printTicket()"> Print ticket </button>`);
+        
+        $("#incorrect-data").hide();
+        $("#name").prop("disabled", true);
+        $("#lnumber").prop("disabled", true);
         $("#driver-license").fadeIn(2000,
             () => $("#driver-permit").fadeIn(2000, 
                 () => $("#driver-insurance").fadeIn(2000, 
-                    () => $("#seat-belt").fadeIn(2000))));
+                    () => $("#seat-belt").fadeIn(2000, 
+                        () => $("#print-ticket").fadeIn(200)))));
+    } else {
+        if (!$("#incorrect-data")[0]) {
+            $("body").append(`<p id="incorrect-data" style="color:red"> *Must have a name and a valid 15 digit Licence number </p>`);
+        } else {
+            $("#incorrect-data").fadeOut(500, () => {
+                $("#incorrect-data").fadeIn(500)
+            })
+        }
+        
     }
     
-    
 };
+
+
+
+
+function printTicket() {
+    const date = new Date(Date.now());
+    const fine = row.fine ? parseInt(row.fine) : 0;
+    const driverLicenseFine = driverLicenseValid || driverPermitValid ? 0 : 85;
+    const seatBeltFine = seatBelt ? 0 : 200; 
+
+    $("body").append(`<pre>Date: ${date.toDateString()}
+Name: ${$("#name").val()} 
+Ticket No: ${Math.round((Math.random() * 9999999) + 1000000)}
+License No: ${$("#lnumber").val()}
+Ofense: ${row.offense}
+Section: ${row.section}
+Fine: $ ${fine}
+Other Fines:
+    Driver License Not Valid: $ ${driverLicenseFine}
+    Seat Belt Unfastened: $ ${seatBeltFine}
+Court appearance: ${row.schedule == "S.F." ? "Yes" : "No"}
+Total Fine: $ ${parseInt(fine) + driverLicenseFine + seatBeltFine}
+</pre>`);
+}
