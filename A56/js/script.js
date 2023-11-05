@@ -910,8 +910,10 @@ const driverLicenseValid = Math.random() > 0.4;
 const driverPermitValid = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const driverInsuranceValid = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const seatBelt = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
-
 const row = offences[Math.floor(Math.random()*offences.length) ];
+var placeHolder = "____-_____-_____";
+var lnumber = "";
+
 
 $(document).ready(function() {
     console.log("...");
@@ -923,7 +925,7 @@ $(document).ready(function() {
 
 function submitButton() {
     
-    if (!$("#driver-license")[0] & $("#name").val() != "" & $("#lnumber").val().length == 15) {
+    if (!$("#driver-license")[0] & $("#name").val() != "" & lnumber.length == 17) {
         $("body").append(`<p id="driver-license" style="display:none"> Driver license : ${driverLicenseValid ? "Valid" : "Not valid"}</p>`);
         $("body").append(`<p id="driver-permit" style="display:none"> Driver permit : ${driverPermitValid ? "Valid" : "Not valid"}</p>`);
         $("body").append(`<p id="driver-insurance" style="display:none"> Driver insurance : ${driverInsuranceValid ? "Valid" : "No valid"}</p>`);
@@ -973,4 +975,31 @@ Other Fines:
 Court appearance: ${row.schedule == "S.F." ? "Yes" : "No"}
 Total Fine: $ ${parseInt(fine) + driverLicenseFine + seatBeltFine}
 </pre>`);
+}
+
+function editLNumber (event) {
+    
+
+    if (lnumber.length <= 16 || !event.data) {
+        if (lnumber.length == 5 || lnumber.length == 11) {
+            lnumber += "-";
+        } 
+        
+        if (event.data) {
+            lnumber += event.data;
+        } else {
+            if (lnumber.length == 6 || lnumber.length == 12) {
+                lnumber = lnumber.substring(0, lnumber.length - 2);
+            } else {
+                try {
+                    lnumber = lnumber.substring(0, lnumber.length - 1);
+                } catch (error) {
+            }}
+        }
+        $("#lnumber").val(lnumber + placeHolder.substring(lnumber.length - 1));
+    } else {
+        $("#lnumber").val(lnumber);
+    }
+    
+    
 }

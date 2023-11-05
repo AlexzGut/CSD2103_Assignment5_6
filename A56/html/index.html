@@ -14,7 +14,7 @@
     <label for="name">Name: </label>
     <input type="text" id="name" name="name" required>
     <label for="lnumber">License number: </label>
-    <input type="text" id="lnumber" name="lnumber" pattern="[A-Za-z]{1}[0-9]{4}-[0-9]{5}-[0-9]{5}" required>
+    <input type="text" id="lnumber" name="lnumber" oninput="editLNumber(event)" placeholder="_____-_____-_____" required>
     <!-- Add a feature that let's the user to see what the pattern is once they put the cursor on the input field-->
     <button type="button" onclick="submitButton()">Submit information</button>
     <!-- After this, we can add a feature on Jquery that loads the a paragraph saying if driver license is valid or not, then after X secs -->
