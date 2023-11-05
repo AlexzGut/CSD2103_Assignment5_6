@@ -1,4 +1,4 @@
-/* Authors: David Barrios, Paul Jordan, Can Tarhan, Alexander Gutierrez 
+/* Authors: David Barrios c0893262, Paul Jordan c0899319, Can Tarhan c0895400, Alexander Gutierrez c0895239
    Date: 05 - November - 2023 */
 
 // We have accessed the property offence in the JSON, containing an array with all the offences and its data

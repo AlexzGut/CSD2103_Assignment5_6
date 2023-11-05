@@ -1,3 +1,6 @@
+/* Authors: David Barrios c0893262, Paul Jordan c0899319, Can Tarhan c0895400, Alexander Gutierrez c0895239
+   Date: 05 - November - 2023 */
+
 /* A JSON has been generated to contain all the data in the table 'The Highway Traffic Act' found at https://www.ontariocourts.ca/ocj/provincial-offences/set-fines/set-fines-i/schedule-43/ 
 The processing of the JSON was created with Python and Java to apply the knowledge acquired in other courses */
 
