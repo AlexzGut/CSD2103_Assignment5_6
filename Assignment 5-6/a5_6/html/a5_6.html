@@ -1,3 +1,6 @@
+<!-- Authors: David Barrios, Paul Jordan, Can Tarhan, Alexander Gutierrez 
+     Date: 05 - November - 2023 -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,16 +13,22 @@
     <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"
         integrity="sha256-eTyxS0rkjpLEo16uXTS0uVCS4815lc40K2iVpWDvdSY=" crossorigin="anonymous"></script>
     <script src="../js/a5_6.js"></script>
-    <title>Assignment 5 -6</title>
+    <script src="../js/json_offences.js"></script>
+    <title>Highway Traffic Act Violation Processing Program</title>
 </head>
 
 <body>
-    <p id="offence_desc"></p>
+    <h1>Highway Traffic Act Violation Processing Program</h1>
+    <div id="heading_msg">
+        <p id="offence_desc"></p>
+    </div>
     <form action="">
-        <label for="driver_name">Driver's Name:</label>
-        <input type="text" name="driver_name" id="driver_name"><span id="driver_name_error">*</span><br>
-        <label for="driver_license">License Number:</label>
-        <input type="text" name="driver_license" id="driver_license"><span id="driver_license_error">*</span><br>
+        <label for="driver_name">Driver's Name:</label><span class="driver_name_error mobile">*</span>
+        <input type="text" name="driver_name" id="driver_name" placeholder="Full Name"><span
+            class="driver_name_error">*</span><br>
+        <label for="driver_license">License Number:</label><span class="driver_license_error mobile">*</span>
+        <input type="text" name="driver_license" id="driver_license" placeholder="_____ - _____ - _____"
+            oninput="formatLicenseNumber(event)"><span class="driver_license_error">*</span><br>
         <label for="">&nbsp;</label>
         <input type="button" id="btn_validate" value="Validate">
     </form>
@@ -37,15 +46,9 @@
             <p>Was the driver wearing the seat belt?</p><img class="val_img" src="" alt="">
         </div>
     </div>
-    <div id="outputWrapper">
-        <label><b>Date: </b></label><label id="date"></label><br>
-        <label><b>Ticket Number: </b></label><label id="ticket_number"></label><br>
-        <label><b>Driver's Name: </b></label><label id="driver_name_output"></label><br>
-        <label><b>Driver's License: </b></label><label id="driver_license_output"></label>
-        <label><b>Fines Total/Appointment: </b></label><label id="fines_total_output"></label>
-        <button id="new_offence">Process New Offence</button>
+    <div id="outputWrapper" class="output">
     </div>
-
+    <div class="output"><button id="new_offence">Process New Offence</button></div>
 
 </body>
 

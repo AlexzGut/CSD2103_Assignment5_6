@@ -1,0 +1,905 @@
+1? Drive motor vehicle, no permit? 7(1)(a)? 85? 
+2? Drive motor vehicle, no currently validated permit? 7(1)(a)? 85? 
+3? Drive motor vehicle, no plates? 7(1)(b)(i)? 85? 
+4? Drive motor vehicle, fail to display two plates? 7(1)(b)(i)? 85? 
+5? Drive motor vehicle, plate improperly displayed? 7(1)(b)(i)? 85? 
+6? Drive motor vehicle, no validation on plate? 7(1)(c)(i)? 85? 
+7? Drive motor vehicle, validation improperly affixed? 7(1)(c)(i)? 85? 
+8? Draw trailer, no permit? 7(4)(a)? 85? 
+9? Draw trailer, no plate? 7(4)(b)? 85? 
+10? Draw trailer, plate improperly displayed? 7(4)(b)? 85? 
+11? Fail to surrender permit for motor vehicle? 7(5)(a)? 85? 
+12? Fail to surrender permit for trailer? 7(5)(b)? 85? 
+13? Have more than one permit? 7(15)? 85? 
+17? Fail to notify change of address? 9(2)? 85? 
+18? Fail to notify change of name? 9(2)? 85? 
+19? Fail to notify change of address - lessee? 9(3)? 85? 
+20? Fail to notify change of name - lessee? 9(3)? 85? 
+21? Drive motor vehicle, no vehicle identification number? 10(1)? 85? 
+22? Permit driving of motor vehicle, no vehicle identification number? 10(1)? 85? 
+23? Draw trailer, no identification number? 10(2)(a)? 85? 
+24? Permit drawing of trailer, no identification number? 10(2)(a)? 85? 
+25? Draw conversion unit, no identification number? 10(2)(b)? 85? 
+26? Permit drawing of conversion unit, no identification number? 10(2)(b)? 85? 
+27? Draw converter dolly, no identification number? 10(2)(c)? 85? 
+28? Permit drawing of converter dolly, no identification number? 10(2)(c)? 85? 
+29? Fail to remove plates on ceasing to be owner? 11(1)(a)? 85? 
+30? Fail to remove plates on ceasing to be lessee? 11(1)(a)? 85? 
+31? Fail to retain plate portion of permit? 11(1)(b)? 85? 
+32? Fail to give vehicle portion of permit to new owner? 11(1)(c)(i)? 85? 
+33? Fail to give vehicle portion of permit to lessor? 11(1)(c)(ii)? 85? 
+34? Fail to apply for permit on becoming owner? 11(2)? 85? 
+66? Confuse identity of plate? 13(1)? 85? 
+67? Obstruct plate? 13(2)? 85? 
+68? Dirty plate? 13(2)? 85? 
+69? Entire plate not plainly visible? 13(2)? 85? 
+69.0.1? Obstruct plate, preventing accurate photograph by red light camera system? 13(3.0.1)? 85? 
+69.1? Obstruct plate preventing accurate photograph? 13(3)? 85? 
+69.2? Obstruct plate preventing identification by toll system? 13(3.1)? 85? 
+72? Fail to carry CVOR certificate or lease? 16(3)(a)? 85? 
+76? Fail to surrender CVOR certificate? 16(4)? 85? 
+77? Fail to surrender vehicle lease? 16(4)? 85? 
+83.4? Inadequate cargo insurance? 23.1? 85? 
+83.5? No evidence of cargo insurance in vehicle? 23.1? 85? 
+88? Drive motor vehicle in contravention of conditions? 32(9)? 85? 
+92? Driver fail to surrender licence? 33(1)? 85? 
+92.1.? Accompanying driver fail to surrender licence? 33(2)? 85? 
+93? Driver fail to give identification? 33(3)? 85? 
+93.1.? Accompanying driver fail to give identification? 33(3)? 85? 
+103? Fail to produce licence when hiring vehicle? 39(3)? 85? 
+103.8? Novice driver - B.A.C. above zero? 44.1 (3)? 85? 
+103.9? Young driver - B.A.C. above zero? 44.1 (5)? 85? 
+103.1? Novice driver - presence of drug? 44.2(4)? 85? 
+103.11? Young driver - presence of drug? 44.2(6)? 85? 
+113.1? Novice driver fail to provide breath sample? 48.1(3)? 85? 
+113.2? Novice driver refuse to provide breath sample? 48.1(4)? 85? 
+113.3? Novice driver fail to provide breath sample? 48.1(4)? 85? 
+113.4? Novice driver refuse to provide breath sample? 48.1(4)? 85? 
+113.5? Novice driver fail to surrender licence? 48.1(5)? 85? 
+113.6? Accompanying driver fail to provide breath sample? 48.2(2)? 85? 
+113.7? Accompanying driver refuse to provide breath sample? 48.2(2)? 85? 
+116.1? Passenger fail to identify self? 57.1.1(1)? 85? 
+116.2? Passenger fail to give required information? 57.1.1(2)? 85? 
+125? Drive without proper headlights‑ motor vehicle? 62(1)? 85? 
+126? Drive without proper rear light - motorvehicle? 62(1)? 85? 
+127? Drive without proper headlight - motorcycle? 62(2)? 85? 
+128? Drive without proper rear light - motorcycle? 62(2)? 85? 
+129? Drive without proper headlights - motorcycle with sidecar? 62(3)? 85? 
+130? Drive without proper rear light - motorcycle with side car? 62(3)? 85? 
+131? Drive with improper headlights? 62(6)? 85? 
+132? Drive with headlamp coated? 62(7)? 85? 
+133? Drive with headlamp covered? 62(7)? 85? 
+134? Drive with headlamp modified? 62(7)? 85? 
+135? More than 4 lighted headlights? 62(9)? 85? 
+136? Improper clearance lights? 62(10)? 85? 
+137? Fail to have proper identification lamps? 62(11)? 85? 
+138? Fail to have proper side marker lamps? 62(13)? 85? 
+139? Use lamp producing intermittent flashes of red light? 62(14)? 85? 
+139.2? Unauthorized red and blue lights? 62(14.1)? 85? 
+140? Red light at front? 62(15)? 85? 
+141? Improper use of green flashing lights? 62(16.1)? 85? 
+142? Improper bicycle lighting? 62(17)? 85? 
+143? Improper lighting on motor assisted bicycle? 62(17)? 85? 
+144? Improper number plate light? 62(19)? 85? 
+145? Use parking light while vehicle in motion? 62(20)? 85? 
+146? Have more than one spotlamp? 62(22)? 85? 
+147? Improper use of spotlamp? 62(22)? 85? 
+148? Improper lights on traction engine? 62(23)? 85? 
+149? No red light on rear of trailer? 62(24)? 85? 
+150? No red light on rear of object? 62(24)? 85? 
+151? No proper red lights – object over 2.6 metres? 62(25)? 85? 
+152? No lamp on left side? 62(26)? 85? 
+153? Improper lights on farm vehicle? 62(27)? 85? 
+154? No directional signals? 62(29)? 85? 
+155? No brake lights? 62(29)? 85? 
+156? No blue flashing light on snowremoval vehicle? 62(31)? 85? 
+157? Improper use of blue flashing light? 62(32)? 85? 
+157.1? Improper use of red and blue flashing lights? 62(32)(b)? 85? 
+158? No sign - 'right hand drive vehicle'? 63? 85? 
+159? Improper braking system? 64(1)? 85? 
+160? Improper brakes on motorcycle? 64(2)? 85? 
+161? Improper brakes on motor-assisted bicycle? 64(2)? 85? 
+161.0.1? Improper brakes on power-assisted bicycle? 64(2)? 85? 
+161.1? Improper brakes on bicycle? 64(3)? 85? 
+162? Improper brakes on trailer? 64(5)? 85? 
+163? Defective brakes? 64(7)? 85? 
+164? Defective braking system? 64(7)? 85? 
+171? Improper windshield wiper? 66(l)(a)? 85? 
+172? No windshield wiper? 66(l)(a)? 85? 
+173? Improper mirror? 66(l)(b)? 85? 
+174? No mirror? 66(l)(b)? 85? 
+175? Improper mudguards? 66(3)? 85? 
+176? No mudguards? 66(3)? 85? 
+177? No odometer? 66(5)? 85? 
+178? Defective odometer? 66(5)? 85? 
+179? Operate motor vehicle - mirrorsmore than 305 mm? 67? 85? 
+180? No speedometer on bus? 68? 85? 
+181? Defective speedometer on bus? 68? 85? 
+182? Improper tire – damage to highway? 69(1)? 85? 
+183? Device on wheels – injure highway? 69(2)? 85? 
+184? No lock shoe – animal drawn vehicle? 69(3)? 85? 
+185? Improper tires? 70(3)(a)? 85? 
+186? Improper tires - drawn vehicle? 70(3)(a)? 85? 
+187? Improperly installed tires? 70(3)(b)? 85? 
+188? Improperly installed tires - drawn vehicle? 70(3)(b)? 85? 
+195? Window obstructed? 73(l)(a)? 85? 
+196? Windshield obstructed? 73(1)(a)? 85? 
+197? Have object obstructing view? 73(l)(b)? 85? 
+198? Drive with window coated - view obstructed? 73(2)? 85? 
+199? Drive with windshield coated - view obstructed? 73(2)? 85? 
+200? Colour coating obscuring interior? 73(3)? 85? 
+201? No clear view to front? 74(1)(a)? 85? 
+202? No clear view to sides? 74(1)(a)? 85? 
+203? No clear view to rear? 74(1)(b)? 85? 
+204? No muffler ‑ motor vehicle? 75(1)? 85? 
+205? No muffler ‑ motor assisted bicycle? 75(1)? 85? 
+206? Improper muffler ‑ motor vehicle? 75(1)? 85? 
+207? Improper muffler ‑ motor assisted bicycle? 75(1)? 85? 
+209? Unreasonable noise ‑ signalling device? 75(4)? 85? 
+210? Unreasonable smoke? 75(4)? 85? 
+211? Unnecessary noise? 75(4)? 85? 
+212? No horn ‑ motor vehicle? 75(5)? 85? 
+213? No horn ‑ motor assisted bicycle? 75(5)? 85? 
+214? No horn – bicycle? 75(5)? 85? 
+215? Defective horn ‑ motor vehicle? 75(5)? 85? 
+216? Defective horn ‑ motor assisted bicycle? 75(5)? 85? 
+217? Defective horn – bicycle? 75(5)? 85? 
+218? Have a siren? 75(6)? 85? 
+219? No slow moving vehicle sign? 76(1)? 85? 
+219.1? Slow moving vehicle sign not attached to rear of vehicle or trailer? 76(1)? 85? 
+219.2? Slow moving vehicle sign not attached in accordance with regulations? 76(1)? 85? 
+219.3? Slow moving vehicle sign placed on fixed object? 76(4)? 85? 
+219.4? Prohibited use of slow moving vehicle sign? 76(6)? 85? 
+219.5? Operate slow moving vehicle over 40 km/h? 76(6.1)? 85? 
+226? Improper means of attachment? 80? 85? 
+259? No name on commercial vehicle? 103(1)? 85? 
+260? Less than two reflectors - commercial vehicle? 103(2)? 85? 
+261? Less than two reflectors - trailer? 103(2)? 85? 
+270? No name and address on road‑building machine? 103(4)? 85? 
+270.1? Fail to wear proper helmet on power-assisted bicycle? 103.1(2)? 85? 
+271? Fail to wear proper helmet on motorcycle? 104(1)? 85? 
+272? Fail to wear proper helmet on motor assisted bicycle? 104(1)? 85? 
+273? Carry passenger under 16 not wearing proper helmet? 104(2)? 85? 
+301? Fail to carry inspection schedule? 107(6)? 85? 
+302? Fail to carry completed daily inspection report? 107(6)? 85? 
+303? Fail to carry completed under-vehicle inspection report? 107(6)? 85? 
+303.1? Fail to surrender inspection schedule? 107 (7)? 85? 
+303.2? Fail to surrender completed daily inspection report? 107 (7)? 85? 
+303.3? Fail to surrender completed under-vehicle inspection report? 107 (7)? 85? 
+303.4? Fail to enter defect in daily inspection report? 107 (8) (a)? 85? 
+303.6? Fail to submit completed daily inspection report to operator? 107 (8) (c)? 85? 
+303.7? Fail to submit completed under-vehicle inspection report to operator? 107 (8) (c)? 85? 
+343? Disobey officer directing traffic? 134(1)? 85? 
+344? Drive on closed highway? 134(3)? 85? 
+345? Fail to yield - uncontrolled intersection? 135(2)? 85? 
+346? Fail to yield to vehicle on right? 135(3)? 85? 
+347? Disobey stop sign - stop wrong place? 136(1)(a)? 85? 
+348? Disobey stop sign - fail to stop? 136(1)(a)? 85? 
+349? Fail to yield to traffic on through highway? 136(1)(b)? 85? 
+350? Traffic on through highway - fail to yield? 136(2)? 85? 
+351? Fail to yield - yield sign? 138(1)? 85? 
+352? Fail to yield from private road? 139(1)? 85? 
+353? Fail to yield from driveway? 139(1)? 85? 
+371.1? Cyclist - ride in crossover? 140(6)? 85? 
+372? Improper right turn? 141(2)? 85? 
+373? Improper right turn - multi‑lane highway? 141(3)? 85? 
+374? Left turn ‑ fail to afford reasonable opportunity to avoid collision? 141(5)? 85? 
+375? Improper left turn? 141(6)? 85? 
+376? Improper left turn - multi‑lane highway? 141(7)? 85? 
+377? Turn - not in safety? 142(1)? 85? 
+378? Change lane - not in safety? 142(1)? 85? 
+379? Fail to signal for turn? 142(1)? 85? 
+380? Fail to signal - lane change? 142(1)? 85? 
+381? Start from parked position -not in safety? 142(2)? 85? 
+382? Start from stopped position -not in safety? 142(2)? 85? 
+383? Start from parked position -fail to signal? 142(2)? 85? 
+384? Start from stopped position - fail to signal? 142(2)? 85? 
+385? Improper arm signal? 142(4)? 85? 
+386? Improper signal device? 142(6)? 85? 
+387? Use turn signals improperly? 142(7)? 85? 
+388? Fail to signal stop? 142(8)? 85? 
+389? Fail to signal decrease in speed? 142(8)? 85? 
+390? Improper signal to stop? 142(8)? 85? 
+391? Improper signal to decrease in speed? 142(8)? 85? 
+392? Brake lights - improper colour? 142(8)(b)? 85? 
+392.2? Fail to yield to bus re-entering lane from bus bay? 142.1(1)? 85? 
+393? U-turn on a curve - no clear view? 143(a)? 85? 
+394? U-turn - railway crossing? 143(b)? 85? 
+395? U-turn near crest of grade -No clear view? 143(c)? 85? 
+396? U-turn ‑ bridge - no clear view? 143(d)? 85? 
+397? U-turn - viaduct - no clear view? 143(d)? 85? 
+398? U-turn - tunnel - no clear view? 143(d)? 85? 
+399? Improper stop - traffic signal at intersection? 144(5)? 85? 
+400? Improper stop - traffic signal not at intersection? 144(6)? 85? 
+402? Fail to yield to traffic? 144(8)? 85? 
+403? Proceed contrary to sign at intersection? 144(9)? 85? 
+404? Cyclist - disobey lane light? 144(10) (a)? 85? 
+405? Green light - fail to proceedas directed? 144(12)? 85? 
+406? Flashing green light ‑ fail to proceed as directed? 144(13)? 85? 
+407? Green arrow - fail to proceed as directed? 144(14)? 85? 
+409? Amber arrow - fail to stop? 144(16)? 85? 
+410? Amber arrow - fail to proceed as directed? 144(16)? 85? 
+411? Flashing amber light - fail to proceed with caution? 144(17)? 85? 
+414? Turn on red light - fail to yield? 144(19)? 85? 
+416? Flashing red light - fail to stop? 144(21)? 85? 
+417? Flashing red light - fail to yield? 144(21)? 85? 
+422.1? Cyclist - ride in crosswalk? 144(29)? 85? 
+426? Disobey portable red light - stop wrong place? 146(5)? 85? 
+427? Disobey portable amber light - stop wrong place? 146(5)? 85? 
+428? Remove portable lane control signal system? 146(6)? 85? 
+429? Deface portable lane control signal system? 146(6)? 85? 
+430? Interfere with portable lane signal system? 146(6)? 85? 
+430.2? Fail to obey traffic control stop sign? 146.1 (3)? 85? 
+430.4? Fail to obey automated flagger assistance device - red indication? 146.1 (3.1)? 85? 
+430.5? Fail to stop where indicated - automated flagger assistance device? 146.1 (3.1)? 85? 
+430.7? Fail to obey traffic control slow sign? 146.1 (4)? 85? 
+430.9? Fail to obey automated flagger assistance device - amber indication? 146.1 (4.1)? 85? 
+430.11? Display traffic control sign - unauthorized person? 146.1 (5)? 85? 
+430.12? Use automated flagger assistance device - unauthorized person? 146.1 (5)? 85? 
+432? Fail to share half roadway - meeting vehicle? 148(1)? 85? 
+434? Fail to share roadway - meeting bicycle? 148(4)? 85? 
+435? Fail to turn out to left to avoid collision? 148(5)? 85? 
+436? Bicycle - fail to turn out to right when overtaken? 148(6)? 85? 
+437? Fail to turn out to left to avoid collision with bicycle? 148(6)? 85? 
+438? Motor assisted bicycle – fail to turn out to right when overtaken? 148(6)? 85? 
+439? Fail to turn out to left to avoid collision with motor assisted bicycle? 148(6)? 85? 
+439.2? Fail to leave one metre while passing bicycle? 148(6.1)? 85? 
+440? Fail to stop to facilitate passing? 148(7)? 85? 
+441? Fail to assist in passing? 148(7)? 85? 
+442? Pass - roadway not clear - approaching traffic? 148(8)(a)? 85? 
+443? Attempt to pass - roadway not clear - approaching traffic? 148(8)(a)? 85? 
+444? Pass - roadway not clear - overtaking traffic? 148(8)(b)? 85? 
+445? Attempt to pass - roadway not clear - overtaking traffic? 148(8)(b)? 85? 
+446? Drive left of centre - approaching crest of grade? 149(1)(a)? 85? 
+447? Drive left of centre - on a curve? 149(1)(a)? 85? 
+448? Drive left of centre within 30 m of bridge - no clear view? 149(1)(a)? 85? 
+449? Drive left of centre within 30 m of viaduct- no clear view? 149(1)(a)? 85? 
+450? Drive left of centre within 30 m of tunnel - no clear view? 149(1)(a)? 85? 
+451? Drive left of centre within 30 m of level railway crossing? 149(1)(b)? 85? 
+453? Pass on right - not in safety? 150(1)? 85? 
+454? Pass - off roadway? 150(2)? 85? 
+455? Non-authorized driving on paved shoulder? 151(5)? 85? 
+456? Drive wrong way - one way traffic? 153? 85? 
+457? Unsafe move – lane or shoulder? 154(1)(a)? 85? 
+459? Use centre lane improperly? 154(1)(b)? 85? 
+460? Fail to obey lane sign? 154(1)(c)? 85? 
+460.2? Improper use of high occupancy vehicle lane? 154.1(3)? 85? 
+460.3? Improper use of border approach lane? 154.2(2)? 85? 
+460.5? Fail to provide required document - driver? 154.2(4)? 85? 
+460.6? Fail to provide required document - occupant? 154.2(4)? 85? 
+461? Drive wrong way - divided highway? 156(1)(a)? 85? 
+462? Cross divided highway - no proper crossing provided? 156(1)(b)? 85? 
+462.1? Backing on roadway - divided highway? 157(1)? 85? 
+462.2? Backing on shoulder - divided highway? 157(1)? 85? 
+463? Follow too closely? 158(1)? 85? 
+464? Commercial vehicle - follow too closely? 158(2)? 85? 
+469? Permit attachment to vehicle? 160? 85? 
+470? Permit attachment to street car? 160? 85? 
+471? Draw more than one vehicle? 161? 85? 
+472? Drive while crowded? 162? 85? 
+473? Disobey railway crossing signal -stop wrong place? 163(1)? 85? 
+474? Disobey railway crossing signal - fail to stop? 163(1)? 85? 
+475? Disobey railway crossing signal - proceed unsafely? 163(1)? 85? 
+475.2? Disobey stop sign at railway crossing - stop at wrong place? 163(2)? 85? 
+475.4? Disobey stop sign at railway crossing - fail to stop? 163(2)? 85? 
+475.6? Disobey stop sign at railway crossing - proceed unsafely? 163(2)? 85? 
+476? Disobey crossing gate? 164? 85? 
+479? Pass street car improperly? 166(1)? 85? 
+480? Approach open streetcar door too closely? 166(1)? 85? 
+481? Pass street car on the left side? 166(2)? 85? 
+482? Frighten animal? 167? 85? 
+483? Fail to ensure safety of person in charge of animal? 167? 85? 
+484? Fail to use lower beam - oncoming? 168(a)? 85? 
+485? Fail to use lower beam - following? 168(b)? 85? 
+485.1? Prohibited use of alternating highbeam headlights? 169(2)? 85? 
+492? Race an animal? 173? 85? 
+493? Fail to stop at railway crossing - bus? 174(1)? 85? 
+494? Stop wrong place at railway crossing - bus? 174(1)(a)? 85? 
+495? Fail to look both ways at railway crossing - bus? 174(1)(b)? 85? 
+496? Fail to open door at railway crossing - bus? 174(1)(c)? 85? 
+497? Cross tracks using gear requiring change - bus? 174(1)(d)? 85? 
+497.1? Change gears while crossing railway track - bus? 174(1)(e)? 85? 
+497.2? Fail to stop at railway crossing- school bus? 174(2)? 85? 
+497.3? Stop wrong place at railway crossing- school bus? 174(2)(a)? 85? 
+497.4? Fail to look both ways at railway crossing- school bus? 174(2)(b)? 85? 
+497.5? Fail to open door at railway crossing- school bus? 174(2)(c)? 85? 
+497.6? Cross tracks using gear requiring change- school bus? 174(2)(d)? 85? 
+497.7? Change gears while crossing railway track- school bus? 174(2)(e)? 85? 
+498? Bus not used to transport adults with developmental disabilities or children, painted chrome yellow? 175(3)? 85? 
+498.1? Chrome yellow bus not displaying required markings? 175(3.1)? 85? 
+499? Prohibited markings? 175(4)? 85? 
+499.1? Prohibited equipment - school bus stop arm? 175(4)? 85? 
+499.2? Post-2004 school bus - improper signal lights? 175(4.1)? 85? 
+500? Drive chrome yellow vehicle, not used to transport adults with developmental disabilities or children? 175(5)? 85? 
+500.1? Drive chrome yellow vehicle not displaying required markings? 175(5)? 85? 
+501? Drive vehicle with prohibited school bus markings? 175(5)? 85? 
+502? Drive vehicle with prohibited school bus stop arm? 175(5)? 85? 
+502.1? Drive post-2004 school bus without required signal lights? 175(5)? 85? 
+503? Fail to actuate school bus signals? 175(6)? 85? 
+504? Improperly actuate school bus signals? 175(8)? 85? 
+505? Improperly actuate school bus signals at intersection controlled by operating traffic control system? 175(9)(a)? 85? 
+506? Improperly actuate school bus signals at location, other than an intersection, controlled by operating traffic control system - at sign or roadway marking indicating stop to be made? 175(9)(b)(i)? 85? 
+507? Improperly actuate school bus signals at location, other than an intersection, controlled by operating traffic control system - in area immediately before entering cross-walk? 175(9)(b)(ii)? 85? 
+507.1? Improperly actuate school bus signals at location, other than an intersection, controlled by operating traffic control system - within 5 m of traffic control system? 175(9)(b)(iii)? 85? 
+507.2? Improperly actuate school bus signals within 60 m of location controlled by operating traffic control system? 175(9)(c)? 85? 
+507.3? Stop school bus opposite loading zone? 175(10)(a)? 85? 
+508? Guard fail to properly display school crossing stop sign? 176(2)? 85? 
+510? Improper use of school crossing stop sign? 176(4)? 85? 
+511? Unauthorized person display school crossing stop sign? 176(5)? 85? 
+514? Attach to vehicle? 178(1)? 85? 
+515? Attach to streetcar? 178(1)? 85? 
+516? Ride 2 on a bicycle? 178(2)? 85? 
+517? Ride another person on a motor assisted bicycle? 178(3)? 85? 
+522? Litter highway? 180? 85? 
+523? Deposit snow or ice on roadway? 181? 85? 
+524? Disobey sign? 182(2)? 85? 
+525? Disobey sign at tunnel? 183(2)? 85? 
+535? Draw occupied trailer? 188? 85? 
+536? Operate air cushioned vehicle? 189? 85? 
+540.2.? Fail to produce proof of exemption? 191(7)? 85? 
+540.3? Drive motor vehicle - toll device improperly affixed? 191.2(1)? 85? 
+540.4? Drive motor vehicle - no toll device? 191.2(1)? 85? 
+540.5? Drive motor vehicle - invalid toll device? 191.2(1)? 85? 
+540.6? Engage in activity to evade toll system? 191.3(1)? 85? 
+540.7? Engage in activity to obstruct toll system? 191.3(1)? 85? 
+540.8? Engage in activity to interfere with toll system? 191.3(1)? 85? 
+540.9? Use device to evade toll system? 191.3(1)? 85? 
+540.1? Use device to obstruct toll system? 191.3(1)? 85? 
+540.11? Use device to interfere with toll system? 191.3(1)? 85? 
+540.12? Sell device designed to interfere with toll system? 191.3(4)? 85? 
+540.13? Offer to sell device designed to interfere with toll system? 191.3(4)? 85? 
+540.14? Advertise for sale device designed to interfere with toll system? 191.3(4)? 85? 
+540.15? Sell device intended to interfere with toll system? 191.3(4)? 85? 
+540.16? Offer to sell device intended to interfere with toll system? 191.3(4)? 85? 
+540.17? Advertise for sale device intended to interfere with toll system? 191.3(4)? 85? 
+541? Fail to report accident? 199(1)? 85? 
+542? Fail to furnish required information? 199(1)? 85? 
+542.1? Fail to report accident - specified location? 199(1.1)? 85? 
+542.2? Fail to furnish required information? 199(1.1)? 85? 
+543? Occupant fail to report accident? 199(2)? 85? 
+544? Police officer fail to report accident? 199(3)? 85? 
+548? Fail to report damage to property on highway? 201? 85? 
+549? Fail to report damage to fence bordering highway? 201? 85? 
+550? Medical practitioner - fail to report? 203(1)? 85? 
+551? Optometrist - fail to report? 204(1)? 85? 
+552? Failing to forward suspended licence to Registrar? 211(2)? 85? 
+554.1? Cyclist - fail to stop? 218(2)? 85? 
+554.2? Cyclist - fail to identify self? 218(2)? 85? 
+35? Deface plate? 12(1)(a)? ? S.F.
+36? Deface validation? 12(1)(a)? ? S.F.
+37? Alter plate? 12(1)(a)? ? S.F.
+38? Alter validation? 12(1)(a)? ? S.F.
+39? Deface permit? 12(1)(a)? ? S.F.
+40? Alter permit? 12(1)(a)? ? S.F.
+41? Use defaced plate? 12(1)(b)? ? S.F.
+42? Use defaced validation? 12(1)(b)? ? S.F.
+43? Use altered plate? 12(1)(b)? ? S.F.
+44? Use altered validation? 12(1)(b)? ? S.F.
+45? Permit use of defaced plate? 12(1)(b)? ? S.F.
+46? Permit use of defaced validation? 12(1)(b)? ? S.F.
+47? Permit use of altered plate? 12(1)(b)? ? S.F.
+48? Permit use of altered validation? 12(1)(b)? ? S.F.
+49? Use defaced permit? 12(1)(b)? ? S.F.
+50? Permit use of defaced permit? 12(1)(b)? ? S.F.
+51? Remove plate without authority? 12(1)(c)? ? S.F.
+83.1? Operate commercial motor vehicle - improper insurance? 23(1)? ? S.F.
+94? Possess illegal licence? 35(1)(a)? ? S.F.
+95? Use illegal licence? 35(1)(a)? ? S.F.
+96? Possess non - Photo Card portion of cancelled, revoked or suspended licence? 35(1)(b)? ? S.F.
+97? Use non - Photo Card portion of cancelled, revoked or suspended licence? 35(1)? ? S.F.
+98? Permit another person to use all or part of licence? 35(1)(c)? ? S.F.
+98.1.? Use other person’s licence? 35(1)(d)? ? S.F.
+98.2.? Apply for more than one licence? 35(1)(e)? ? S.F.
+98.3.? Secure more than one licence? 35(1)(e)? ? S.F.
+98.4.? Possess more than one licence? 35(1)(e)? ? S.F.
+98.5.? Fail to surrender suspended, revoked or cancelled licence? 35(1)(f)? ? S.F.
+99? Driving under licence of other jurisdiction while suspended inOntario? 36? ? S.F.
+100? Employ person under 16 to drive? 37(2)? ? S.F.
+101? Permit person under 16 to drive? 37(2)? ? S.F.
+101.1? Permit person under 16 on motor-assisted bicycle? 38(2)? ? S.F.
+101.2? Permit person under 16 on power-assisted bicycle? 38(2)? ? S.F.
+102? Let unlicensed driver hire vehicle? 39(1)? ? S.F.
+103.7? Fail to identify self? 39.1(6)? ? S.F.
+104? Apply for permit while prohibited? 47(5)? ? S.F.
+105? Procure permit while prohibited? 47(5)? ? S.F.
+106? Possess permit while prohibited? 47(5)? ? S.F.
+107? Apply for licence while prohibited? 47(6)? ? S.F.
+108? Procure licence while prohibited? 47(6)? ? S.F.
+109? Possess licence while prohibited? 47(6)? ? S.F.
+112? Operate commercial motor vehicle - fleet limitation certificate not carried? 47(8)(a)? ? S.F.
+113? Operate commercial motor vehicle ‑ CVOR certificate suspended? 47(8)(b)? ? S.F.
+114? Operate vehicle for which permit suspended? 51? ? S.F.
+115? Operate vehicle for which permit cancelled? 51? ? S.F.
+116? Driving while under suspension? 53 (1)? ? S.F.
+117? No licence to operate vehicle business? 59(1)? ? S.F.
+118? Interfere with officer inspectingvehicle business? 59(6)? ? S.F.
+119? Fail to keep records? 60(1)? ? S.F.
+120? Deal with vehicle identification numberaltered? 60(2)? ? S.F.
+121? Deface vehicle identification number? 60(3)? ? S.F.
+122? Remove vehicle identification number? 60(3)? ? S.F.
+124.1? Give false report? 60(6)? ? S.F.
+165? Sell improper brake fluid? 65(l)(a)? ? S.F.
+166? Offer to sell improper brake fluid? 65(l)(a)? ? S.F.
+167? Install improper brake fluid? 65(l)(a)? ? S.F.
+168? Sell improper hydraulic oil? 65(l)(b)? ? S.F.
+169? Offer to sell improper hydraulic oil? 65(1)(b)? ? S.F.
+170? Install improper hydraulic oil? 65(l)(b)? ? S.F.
+189? Fail to mark rebuilt tire? 71(2)? ? S.F.
+190? Sell unmarked rebuilt tire? 71(3)? ? S.F.
+191? Offer to sell unmarked rebuilt tire? 71(3)? ? S.F.
+192? Sell new vehicle – no safety glass? 72(2)? ? S.F.
+193? Register new vehicle ‑ no safety glass? 72(2)? ? S.F.
+194? Install non‑safety glass? 72(3)? ? S.F.
+228? Operate unsafe vehicle? 84? ? S.F.
+228.1? Operate unsafe vehicle - commercial motor vehicle? 84? ? S.F.
+229? Operate unsafe streetcar? 84? ? S.F.
+230? Operate unsafe combination of vehicles? 84? ? S.F.
+230.1? Operate unsafe combination of vehicles - commercial motor vehicle? 84? ? S.F.
+231? Permit operation of unsafe vehicle? 84? ? S.F.
+231.1? Permit operation of unsafe vehicle - commercial motor vehicle? 84? ? S.F.
+232? Permit operation of unsafe streetcar? 84? ? S.F.
+233? Permit operation of unsafe combination of vehicles? 84? ? S.F.
+236? Issue SSC not provided by Ministry? 86? ? S.F.
+237? Affix vehicle inspection sticker not provided by Ministry? 86? ? S.F.
+238? Unauthorized person issue SSC? 90(1)? ? S.F.
+240? Issue SSC without proper inspection? 90(3)(a)? ? S.F.
+241? Affix vehicle inspection certificate without proper inspection? 90(3)(a)? ? S.F.
+242? Issue SSC - vehicle not complying? 90(3)(a)? ? S.F.
+243? Affix vehicle inspection sticker - vehicle not complying? 90(3)(a)? ? S.F.
+244? SSC not made by inspection mechanic? 90(3)(b)(i)? ? S.F.
+245? Vehicle inspection record not made by inspection mechanic? 90(3)(b)(i)? ? S.F.
+246? SSC not countersigned? 90(3)(b)(ii)? ? S.F.
+248? Corporation fail to notify change of officer or director? 91(7)? ? S.F.
+249? Unregistered mechanic certify SSC? 92(1)? ? S.F.
+250? Unregistered mechanic sign vehicle inspection record? 92(1)? ? S.F.
+251? Obstruct inspector? 98(6)? ? S.F.
+252? False statement in SSC? 99(2)? ? S.F.
+253? Sell new vehicle not complying with standards? 102(3)? ? S.F.
+254? Offer for sale new vehicle not complying with standards? 102(3)? ? S.F.
+255? Expose for sale new vehicle not complying with standards? 102(3)? ? S.F.
+256? Sell new vehicle not marked or identified? 102(3)? ? S.F.
+257? Offer for sale new vehicle not marked or identified? 102(3)? ? S.F.
+258? Expose for sale new vehicle not marked or identified? 102(3)? ? S.F.
+262? Sell new commercial vehicle without two red rear lights? 103(3)(a)? ? S.F.
+263? Offer to sell new commercial vehicle without two red rear lights? 103(3)(a)? ? S.F.
+264? Sell trailer without two red rear lights? 103(3)(a)? ? S.F.
+265? Offer to sell trailer without two red rear lights? 103(3)(a)? ? S.F.
+266? Sell new commercial vehicle without two rear red reflectors? 103(3)(b)? ? S.F.
+267? Offer to sell new commercial vehicle without two rear red reflectors? 103(3)(b)? ? S.F.
+268? Sell trailer without two rear red reflectors? 103(3)(b)? ? S.F.
+269? Offer to sell trailer without two rear red reflectors? 103(3)(b)? ? S.F.
+274? Dealing with vehicle not conforming to standard? 105(1)? ? S.F.
+275? Dealing with motor assisted bicycle - no document of compliance? 105(2)? ? S.F.
+491? Race a motor vehicle? 172(1)? ? S.F.
+491.1? Race a motor vehicle - community safety zone? 172(1)? ? S.F.
+532? Fail to remove aircraft? 187(1)? ? S.F.
+533? Move aircraft improperly? 187(2)? ? S.F.
+534? Aircraft unlawfully take off? 187(3)? ? S.F.
+545? Fail to remain? 200(1)(a)? ? S.F.
+547? Fail to give required information? 200(1)(c)? ? S.F.
+87? Drive vehicle with air brakes - no endorsement? 32(3)? 200? 
+89? Permit unlicensed person to drive motor vehicle? 32(10)? 200? 
+90? Permit person with improper licence to drive motor vehicle? 32(10)? 200? 
+91? Permit person to drive motor vehicle in contravention of condition? 32 (10.1)? 200? 
+91.1.? Permit operation of vehicles with air brakes - no endorsement on licence? 32(11)? 200? 
+91.2.? Permit novice driver to drive in contravention of condition or restriction? 32(11.1)? 200? 
+125.1? Drive without proper headlights -commercial motor vehicle? 62(1)? 200? 
+126.1? Drive without proper rear light -commercial motor vehicle? 62(1)? 200? 
+131.1? Drive with improper headlights - commercial motor vehicle? 62(6)? 200? 
+132.1? Drive with headlight coated -commercial motor vehicle? 62(7)? 200? 
+133.1? Drive with headlamp covered - commercial motor vehicle? 62(7)? 200? 
+134.1? Drive with headlamp modified - commercial motor vehicle? 62(7)? 200? 
+135.1? More than 4 lighted headlights - commercial motor vehicle? 62(9)? 200? 
+136.1? Improper clearance lights - commercial motor vehicle? 62(10)? 200? 
+137.1? Fail to have proper identification lamps - commercial motor vehicle? 62(11)? 200? 
+138.1? Fail to have proper side marker lamps - commercial motor vehicle? 62(13)? 200? 
+139.1? Use lamp producing intermittent flashes of red light - commercial motor vehicle? 62(14)? 200? 
+139.3? Unauthorized red and blue lights - commercial motor vehicle? 62(14.1)? 200? 
+140.1? Red light at front - commercial motor vehicle? 62(15)? 200? 
+141.1? Improper use of green flashing lights - commercial motor vehicle? 62(16.1)? 200? 
+146.1? Have more than one spotlamp - commercial motor vehicle? 62(22)? 200? 
+147.1? Improper use of spotlamp - commercial motor vehicle? 62(22)? 200? 
+149.1? No red light on rear of trailer - commercial motor vehicle? 62(24)? 200? 
+150.1? No red light on rear of object - commercial motor vehicle? 62(24)? 200? 
+151.1? No proper red light - object over 2.6m- commercial motor vehicle? 62(25)? 200? 
+152.1? No lamp on left side - commercial motor vehicle? 62(26)? 200? 
+154.1? No directional signals - commercial motor vehicle? 62(29)? 200? 
+155.1? No brake lights – commercial motor vehicle? 62(29)? 200? 
+157.2? Improper use of red and blue flashing lights - commercial motor vehicle? 62(32)(b)? 200? 
+171.1? Improper windshield wiper - commercial motor vehicle? 66(1)(a)? 200? 
+172.1? No windshield wiper - commercialmotor vehicle? 66(1)(a)? 200? 
+173.1? Improper mirror - commercial motor vehicle? 66(1)(b)? 200? 
+174.1? No mirror - commercial motor vehicle? 66(1)(b)? 200? 
+175.1? Improper mudguards - commercial motor vehicle? 66(3)? 200? 
+176.1? No mudguards - commercial motor vehicle? 66(3)? 200? 
+177.1? No odometer - commercial motor vehicle? 66(5)? 200? 
+178.1? Defective odometer -commercial motor vehicle? 66(5)? 200? 
+185.1? Improper tires - commercial motor vehicle? 70(3)(a)? 200? 
+186.1? Improper tires - drawn vehicle - commercial motor vehicle? 70(3)(a)? 200? 
+187.1? Improperly installed tires - commercial motor vehicle? 70(3)(b)? 200? 
+188.1? Improperly installed tires - drawn vehicle - commercial motor vehicle? 70(3)(b)? 200? 
+226.1? Improper means of attachment - commercial motor vehicle? 80? 200? 
+234? Operate vehicle - fail to display inspection sticker or proof? 85(1)? 200? 
+235? Permit operation of vehicle - fail to display inspection sticker or proof? 85(1)? 200? 
+239? Unauthorized person affix vehicle inspection sticker? 90(2)? 200? 
+276? Drive with seat belt removed? 106(1)? 200? 
+277? Drive with seat belt inoperative? 106(1)? 200? 
+278? Drive with seat belt modified? 106(1)? 200? 
+279? Driver - fail to properly wear seat belt? 106(2)? 200? 
+280? Passenger - fail to occupy position with seat belt? 106(3) (a)? 200? 
+281? Passenger - fail to properly wear seat belt? 106(3) (b)? 200? 
+282? Drive while passenger under 16 fails to occupy position with seat belt? 106(4) (a) (i)? 200? 
+283? Drive while passenger under 16 fails to properly wear seat belt? 106(4) (a) (ii)? 200? 
+284? Drive while child passenger not properly secured? 106(4) (b)? 200? 
+297? Fail to complete daily inspection report forthwith after inspection? 107(5)? 200? 
+298? Fail to accurately complete daily inspection report? 107(5)? 200? 
+299? Fail to complete under-vehicle inspection report forthwith after inspection? 107(5)? 200? 
+300? Fail to accurately complete under-vehicle inspection report? 107(5)? 200? 
+303.5? Fail to report defect to operator? 107 (8) (b)? 200? 
+303.8? Drive commercial motor vehicle without required inspection? 107 (9)? 200? 
+315.1? Fail to mark overhanging load -commercial motor vehicle? 111(1)? 200? 
+336? Fail or refuse to stop? 124(3)? 200? 
+337? Fail or refuse to drive vehicle to scale? 124(3)? 200? 
+490.1? Offer tow truck services in King’s Highway within 200 m of accident or apparent accident? 171(1)(a)? 200? 
+490.2? Offer tow truck services on King’s Highway within 200 m of vehicle involved in accident? 171(1)(b)? 200? 
+490.3? Park tow truck on King’s Highway within 200 m of accident or apparent accident - sufficient tow trucks available? 171(2)(a)? 200? 
+490.4? Stop tow truck on King’s Highway within 200 m of accident or apparent accident - sufficient tow trucks available? 171(2)(a)? 200? 
+490.5? Park tow truck on King’s Highway within 200 m of vehicle involved in accident - sufficient tow trucks available? 171(2)(b)? 200? 
+490.6? Stop tow trucks on King’s Highway within 200 m of vehicle involved in accident - sufficient tow trucks available? 171(2)(b)? 200? 
+343.1? Disobey officer directing traffic -community safety zone? 134(1)? 120? 
+344.1? Drive on closed highway - community safety zone? 134(3)? 120? 
+347.1? Disobey stop sign - stop wrong place - community safety zone? 136(1)(a)? 120? 
+372.1? Improper right turn - community safety zone? 141(2)? 120? 
+373.1? Improper right turn - multi-lane highway - community safety zone? 141(3)? 120? 
+375.1? Improper left turn - community safety zone? 141(6)? 120? 
+376.1? Improper left turn - multi-lane highway - community safety zone? 141(7)? 120? 
+379.1? Fail to signal for turn - community safety zone? 142(1)? 120? 
+380.1? Fail to signal - lane changecommunity safety zone? 142(1)? 120? 
+383.1? Start from parked position - fail to signal community safety zone? 142(2)? 120? 
+384.1? Start from stopped position - fail to signal - community safety zone? 142(2)? 120? 
+385.1? Improper arm signal - community safety zone? 142(4)? 120? 
+386.1? Improper signal device - community safety zone? 142(6)? 120? 
+387.1? Use turn signals improperly - community safety zone? 142(7)? 120? 
+388.1? Fail to signal stop - community safety zone? 142(8)? 120? 
+389.1? Fail to signal decrease in speed community safety zone? 142(8)? 120? 
+390.1? Improper signal to stop - community safety zone? 142(8)? 120? 
+391.1? Improper signal to decrease in speed community safety zone? 142(8)? 120? 
+392.1? Brake lights - improper colour - community safety zone? 142(8)(b)? 120? 
+392.3? Fail to yield to bus re-entering lane from bus bay – community safety zone? 142.1(1)? 120? 
+399.1? Improper stop - traffic signal at intersection community safety zone? 144(5)? 120? 
+400.1? Improper stop - traffic signal not at intersection - community safety zone? 144(6)? 120? 
+403.1? Proceed contrary to signat intersection - community safety zone? 144(9)? 120? 
+404.1? Cyclist - disobey lane light - community safety zone? 144(10) (a)? 120? 
+405.1? Green light - fail to proceed as directed community safety zone? 144(12)? 120? 
+406.1? Flashing green light - fail to proceed as directed community safety zone? 144(13)? 120? 
+407.1? Green arrow - fail to proceed as directed community safety zone? 144(14)? 120? 
+409.1? Amber arrow - fail to stopcommunity safety zone? 144(16)? 120? 
+410.1? Amber arrow - fail to proceed as directed community safety zone? 144(16)? 120? 
+411.1? Flashing amber light - fail toproceed with caution - community safety zone? 144(17)? 120? 
+426.1? Disobey portable red light - stop wrong place - community safety zone? 146(5)? 120? 
+427.1? Disobey portable amber light - stop wrong place - community safety zone? 146(5)? 120? 
+429.1? Deface portable lane control signal system community safety zone? 146(6)? 120? 
+430.1? Interfere with portable lane control signal system - community safety zone? 146(6)? 120? 
+430.3? Fail to obey traffic control stop sign -community safety zone? 146.1 (3)? 120? 
+430.6? Fail to obey automated flagger assistance device - red indication - community safety zone? 146.1 (3.1)? 120? 
+430.8? Fail to obey traffic control slow sign - community safety zone? 146.1 (4)? 120? 
+432.1? Fail to share half roadway - meeting vehicle - community safety zone? 148(1)? 120? 
+434.1? Fail to share roadway - meeting bicycle community safety zone? 148(4)? 120? 
+435.1? Fail to turn out to left to avoid collision community safety zone? 148(5)? 120? 
+436.1? Bicycle - fail to turn out to right when overtaken - community safety zone? 148(6)? 120? 
+437.1? Fail to turn out to left to avoid collision with bicycle - community safety zone? 148(6)? 120? 
+438.1? Motor assisted bicycle - fail to turn out to right when overtaken - community safety zone? 148(6)? 120? 
+439.1? Fail to turn out to left to avoid collision with motor assisted bicycle - community safety zone? 148(6)? 120? 
+440.1? Fail to stop to facilitate passing - community safety zone? 148(7)? 120? 
+441.1? Fail to assist in passing - community safety zone? 148(7)? 120? 
+455.1? Non-authorized driving on paved shoulder - community safety zone? 151(5)? 120? 
+459.1? Use centre lane improperly - community safety zone? 154(1)(b)? 120? 
+460.1? Fail to obey lane sign -community safety zone? 154(1)(c)? 120? 
+462.0.1? Cross divided highway - no proper crossing provided - community safety zone? 156(1)(b)? 120? 
+462.1.1? Backing on roadway - divided highway community safety zone? 157(1)? 120? 
+462.3? Backing on shoulder - divided highway community safety zone? 157(1)? 120? 
+463.1? Follow too closely - community safety zone? 158(1)? 120? 
+464.1? Commercial vehicle - follow too closely community safety zone? 158(2)? 120? 
+469.1? Permit attachment to vehicle - community safety zone? 160? 120? 
+470.1? Permit attachment to street car community safety zone? 160? 120? 
+471.1? Draw more than one vehicle - community safety zone? 161? 120? 
+472.1? Drive while crowded - community safety zone? 162? 120? 
+481.1? Pass street car on the left side - community safety zone? 166(2)? 120? 
+482.1? Frighten animal - community safety zone? 167? 120? 
+483.1? Fail to ensure safety of person in charge of animal - community safety zone? 167? 120? 
+484.1? Fail to use lower beam - oncoming community safety zone? 168(a)? 120? 
+485.0.1? Fail to use lower beam - following community safety zone? 168(b)? 120? 
+485.2? Prohibited use of alternating highbeam headlights - community safety zone? 169(2)? 120? 
+524.1? Disobey sign - community safety zone? 182(2)? 120? 
+14? Drive motor vehicle, not in accordance with permit limitations? 8 (1)? 310? 
+14.1? Permit operation of motor vehicle, not in accordance with permit limitations? 8 (1)? 310? 
+15? Drive motor vehicle without specified permit required for use? 8 (2)? 310? 
+15.1? Permit operation of motor vehicle without specified permit required for use? 8 (2)? 310? 
+34.1? Fail to provide valid information package for inspection? 11.1(1)? 140? 
+34.2? Fail to deliver valid information package at time vehicle transfer? 11.1(1)? 140? 
+52? Use plate not authorized for vehicle? 12(1)(d)? 140? 
+53? Permit use of plate not authorized for vehicle? 12(1)(d)? 140? 
+54? Use validation not furnished by Ministry? 12(1)(e)? 140? 
+55? Use validation not furnished for vehicle? 12(1)(e)? 140? 
+56? Permit use of validation not furnished by Ministry? 12(1)(e)? 140? 
+57? Permit use of validation not furnished for vehicle? 12(1)(e)? 140? 
+58? Use plate not in accordance with Act? 12(1)(f)? 140? 
+59? Use plate not in accordance with regulations? 12(1)(f)? 140? 
+60? Use validation not in accordance with Act? 12(1)(f)? 140? 
+61? Use validation not in accordance with regulations? 12(1)(f)? 140? 
+62? Permit use of plate not in accordance with Act? 12(1)(f)? 140? 
+63? Permit use of plate not in accordance with regulations? 12(1)(f)? 140? 
+64? Permit use of validation not in accordance with Act? 12(1)(f)? 140? 
+65? Permit use of validation not in accordance with regulations? 12(1)(f)? 140? 
+70? Operate commercial motor vehicle - no valid CVOR certificate? 16(2)? 260? 
+71? Drive commercial motor vehicle - no valid CVOR certificate? 16(2)? 175? 
+73? Fail to carry fleet limitation certificate? 16(3)(b)? 175? 
+79? Fail to surrender fleet limitation certificate? 16(4)? 175? 
+80? Fail to notify change of officer’s name? 18? 175? 
+81? Fail to notify change of officer’s address? 18? 175? 
+82? Fail to notify change of officers? 18? 175? 
+83? Fail to retain copy of lease? 20(1)? 175? 
+83.0.1? Provide fictitious, altered or fraudulently obtained CVOR certificate? 21(4)? 400? 
+83.0.2? Use fictitious, altered or fraudulently obtained CVOR certificate? 21(4)? 400? 
+83.0.3? Permit the use of fictitious, altered or fraudulently obtained CVOR certificate? 21(4)? 400? 
+83.0.4? Improperly use CVOR certificate? 21(4)? 400? 
+83.2? Driver of commercial motor vehicle - fail to carry proof of insurance? 23(3)? 175? 
+83.3? Driver of commercial motor vehicle - fail to surrender proof of insurance? 23(3)? 175? 
+84? Drive motor vehicle - no licence? 32(1)? 260? 
+84.1? Drive commercial motor vehicle - no licence? 32(1)? 310? 
+85? Drive motor vehicle - improper licence? 32(1)? 260? 
+85.1? Drive commercial motor vehicle - improper licence? 32(1)? 310? 
+86? Drive streetcar - no licence? 32(2)? 260? 
+87.1? Drive commercial motor vehicle with air brake- no endorsement? 32(3)? 310? 
+88.1? Drive commercial motor vehicle in contravention of conditions? 32(9)? 310? 
+89.1? Permit unlicensed person to drive commercial motor vehicle? 32(10)? 310? 
+90.1? Permit person with improper licence to drive commercial motor vehicle? 32(10)? 310? 
+91.0.1? Permit person to drive commercial motor vehicle in contravention of condition? 32 (10.1)? 310? 
+103.2? Owner – allow use of vehicle to pick up passenger for compensation without authority? 39.1(2)? 300? 
+103.3? Arrange for passenger pick-up for compensation without authority? 39.1(3)? 300? 
+103.4? Offer to arrange for passenger pick-up for compensation without authority? 39.1(3)? 300? 
+103.5? Fail to carry authority to pick up passengers for compensation? 39.1(4)(a)? 300? 
+103.6? Fail to surrender authority to pick up passengers for compensation? 39.1(4)(b)? 300? 
+110? Procure CVOR certificate while suspended or cancelled? 47(7)? 260? 
+111? Apply for CVOR certificate while suspended or cancelled? 47(7)? 260? 
+123? Fail to notify re vehicle stored more than2 weeks? 60(4)? 60? 
+124? Fail to report damaged vehicle? 60(5)? 140? 
+159.1? Improper braking system - commercialmotor vehicle? 64(1)? 400? 
+162.1? Improper brakes on trailer - commercialmotor vehicle? 64(5)? 400? 
+163.1? Defective brakes - commercial motor vehicle? 64(7)? 400? 
+164.1? Defective braking system - commercial motor vehicle? 64(7)? 400? 
+181.1? Drive commercial motor vehicle not equipped with working speed-limiting system? 68.1 (1)? 310? 
+181.2? Permit operation of commercial motor vehicle not equipped with working speed-limiting system? 68.1 (1)? 310? 
+181.3? Deactivate speed-limiting system? 68.1 (2) (a)? 310? 
+181.4? Permit person to deactivate speed-limiting system? 68.1 (2) (a)? 310? 
+181.5? Modify speed-limiting system? 68.1 (2) (b)? 310? 
+181.6? Permit person to modify speed-limiting system? 68.1 (2) (b)? 310? 
+181.7? Drive commercial motor vehicle with speed-limiting system tampering device? 68.1 (3)? 310? 
+181.8? Permit operation of commercial motor vehicle with speed-limiting system tampering device? 68.1 (3)? 310? 
+181.9? Fail to comply with officer’s direction re speed-limiting system? 68.1 (5)? 310? 
+218.1? Drive motor vehicle not in accordance with emissions regulation? 75.1 (1)? 300? 
+218.2? Drive commercial motor vehicle not in accordance with emissions regulation? 75.1 (1)? 500? 
+218.3? Cause or permit operation of motor vehicle not in accordance with emissions regulation? 75.1 (1)? 300? 
+218.4? Cause or permit operation of commercial motor vehicle not in accordance with emissions regulation? 75.1 (1)? 500? 
+218.5? Tamper with motor vehicle - emissions? 75.1 (2)? 500? 
+218.6? Cause or permit tampering with motor vehicle - emissions? 75.1 (2)? 500? 
+218.7? Sell or offer to sell emissions tampering system or device? 75.1 (3)? 500? 
+220? No sleigh bells? 77(1)? 5? 
+221? Drive – display screen visible to driver? 78(1)? 500? 
+222? Drive – hand-held communication device? 78.1(1)? 500? 
+223? Drive – hand-held entertainment device? 78.1(2)? 500? 
+225? Drive motor vehicle with speed measuring warning device? 79(2)? 140? 
+225.1? Drive motor vehicle with pre-empting traffic control signal device? 79.1(1)? 140? 
+227? Refuse or fail to stop and move vehicle to a safe location? 82(9)? 140? 
+227.1? Refuse or fail to submit vehicle to examinations and tests? 82(9)? 140? 
+227.2? Refuse or fail to have vehicle repaired and submitted to further examinations and tests? 82(9)? 140? 
+227.3? Refuse or fail to have vehicle repaired and submit evidence of compliance? 82(9)? 140? 
+227.4? Refuse or fail to assist with examinations and tests of vehicle? 82(9)? 140? 
+227.5? Refuse or fail to place vehicle in safe condition? 82(9)? 140? 
+227.6? Refuse or fail to remove unsafe vehicle from highway? 82(9)? 140? 
+227.7? Operate unsafe vehicle on highway contrary to officer’s prohibition? 82(9)? 140? 
+227.8? Permit operation of unsafe vehicle on highway contrary to officer’s prohibition? 82(9)? 140? 
+227.9? Refuse or fail to stop and move vehicle to a safe location - commercial motor vehicle? 82 (10)? 400? 
+227.11? Refuse or fail to have vehicle repaired and submitted to further examinations and tests - commercial motor vehicle? 82 (10)? 400? 
+227.12? Refuse or fail to have vehicle repaired and submit evidence of compliance - commercial motor vehicle? 82 (10)? 400? 
+227.13? Refuse or fail to assist with examinations and tests of vehicle - commercial motor vehicle? 82 (10)? 400? 
+227.14? Refuse or fail to place vehicle in safe condition - commercial motor vehicle? 82 (10)? 400? 
+227.15? Refuse or fail to remove unsafe vehicle from highway - commercial motor vehicle? 82 (10)? 400? 
+227.16? Operate unsafe vehicle on highway contrary to officer’s prohibition - commercial motor vehicle? 82 (10)? 400? 
+227.17? Permit operation of unsafe vehicle on highway contrary to officer’s prohibition - commercial motor vehicle? 82 (10)? 400? 
+233.1? Permit operation of unsafe combination of vehicles - commercial motor vehicle? 84? ? S.F
+247? Unlicensed inspection station? 91(1)? 400? 
+273.1? Fail to wear proper helmet on bicycle? 104(2.1)? 60? 
+273.2? Permit person under 16 not wearing proper helmet on bicycle? 104(2.2)? 60? 
+273.3? Equestrian rider - fail to use proper equipment? 104.1(1)? 60? 
+273.4? Authorize or permit equestrian rider under 16 to ride without proper equipment? 104.1(3)? 60? 
+288? Fail to establish system to periodically inspect and maintain commercial motor vehicles and drawn vehicles? 107(1)? 310? 
+289? Fail to keep written record of system to periodically inspect and maintain commercial motor vehicles and drawn vehicles? 107(1)? 310? 
+290? Fail to ensure periodic inspections and maintenance are carried out? 107(2)? 310? 
+291? Fail to ensure performance standards are met? 107(3)? 310? 
+292? Fail to supply driver with daily inspection schedule? 107(4)(a)? 310? 
+293? Fail to ensure daily inspection is conducted properly? 107(4)(b)? 310? 
+294? Fail to ensure under-vehicle inspection is conducted properly? 107(4)(c)? 310? 
+295? Fail to ensure daily inspection report is accurately completed? 107(4)(d)? 310? 
+296? Fail to ensure under-vehicle inspection report is accurately completed? 107(4)(d)? 310? 
+303.9? Drive commercial motor vehicle with a major defect in it or in drawn vehicle? 107 (11)? 310? 
+303.11? Fail to maintain books and records? 107 (13)? 310? 
+303.12? Fail to produce books and records? 107 (13)? 310? 
+304? Overwidth vehicle? 109(1)? 310? 
+305? Overwidth load? 109(2)? 310? 
+306? Overlength vehicle? 109(6)? 310? 
+306.1? Overlength full trailer? 109(6.2)? 310? 
+307? Overlength combination of vehicles? 109(7)? 310? 
+307.1? Operate overlength combinationof vehicles? 109(8)? 310? 
+308? Overlength semi‑trailer? 109(10)? 310? 
+309? Overlength bus? 109(11)? 310? 
+309.1? Overlength recreational vehicle? 109(11)? 310? 
+310? Overheight vehicle? 109(14)? 310? 
+311? Fail to carry permit in vehicle? 110(6)? 310? 
+312? Fail to produce permit? 110(6)? 310? 
+313? Oversize vehicle - violate permit? 110(7)? 310? 
+314? Overweight vehicle - violate permit? 110(7)? $200.00 ? Schedule A
+314.1? Fail to comply with condition of permit? 110(7)? 310? 
+314.2? Violate non-weight condition of special permit? 110.2 (3) (a)? 310? 
+314.3? Violate weight condition of special permit? 110.2 (3) (b)? 0? Schedule A
+314.4? Violate weight condition of special permit - liftable axle lifted? 110.2 (3) (b)? $200.00 ? Schedule A
+314.5? Violate weight condition of special permit - liftable axle deployed improperly? 110.2 (3) (b)? $200.00 ? Schedule A
+314.6? Violate more than one condition, including a weight condition, of special permit? 110.2 (3) (c)? $200.00 ? Schedule A
+314.7? Violate more than one condition, including a weight condition, of special permit - liftable axle lifted? 110.2 (3) (c)? $400.00 ? Schedule A
+314.8? Violate more than one condition, including a weight condition, of special permit - liftable axle deployed improperly? 110.2 (3) (c)? $400.00 ? Schedule A
+315? Fail to mark overhanging load? 111(1)? 130? 
+316? Insecure load? 111(2)? 130? 
+316.1? Insecure load - commercial motor vehicle? 111(2)? 310? 
+316.2? Operate vehicle with load not secured as prescribed? 111(2.1)? 130? 
+316.3? Operate commercial motor vehicle with load not secured as prescribed? 111(2.1)? 310? 
+316.4? Permit operation of vehicle with load not secured as prescribed? 111(2.1)? 130? 
+316.5? Permit operation of commercial motor vehicle with load not secured as prescribed? 111(2.1)? 310? 
+316.6? Drive commercial motor vehicle without conducting inspections? 111(2.2)? 310? 
+317? Overweight on tires… kg…less than 150 mm.? 115(1)(a)? 0? Schedule A
+317.1? Overweight on tires… kg. liftable axle lifted? 115(1)(a)? $200.00 ? Schedule A
+317.2? Overweight on tires …kg. - liftable axle deployed improperly? 115(1)(a)? $200.00 ? Schedule A
+318? Overweight on tires… kg… 150 mm or over? 115(1)(b)? 0? Schedule A
+318.1? Overweight on tires… kg. . - liftable axle lifted? 115(1)(b)? $200.00 ? Schedule A
+318.2? Overweight on tires… kg. - liftable axle deployed improperly? 115(1)(b)? $200.00 ? Schedule A
+319? Overweight single axle (single tires)… kg. Class A Highway? 116(1)(a)? 0? Schedule A
+319.1? Overweight single axle (single tires)… kg. Class A Highway - liftable axle lifted? 116(1)(a)? $200.00 ? Schedule A
+319.2? Overweight single axle (single tires)… kg. Class A Highway - liftable axle deployed improperly? 116(1)(a)? $200.00 ? Schedule A
+320? Overweight single axle (dual tires) … kg. Class A Highway? 116(1)(b)? 0? Schedule A
+320.1? Overweight single axle (dual tires) … kg. Class A Highway- liftable axle lifted? 116(1)(b)? $200.00 ? Schedule A
+320.2? Overweight single axle (dual tires) … kg. Class A Highway- liftable axle deployed improperly? 116(1)(b)? $200.00 ? Schedule A
+321? Overweight dual axle … kg. Class A Highway? 116(1)(c)? 0? Schedule A
+321.1? Overweight dual axle …kg. Class A Highway– liftable axle lifted? 116(1)(c)? $200.00 ? Schedule A
+321.2? Overweight dual axle …kg. Class A Highway– liftable axle deployed improperly? 116(1)(c)? $200.00 ? Schedule A
+322? Overweight triple axle … kg. Class A Highway? 116(1)(d)? 0? Schedule A
+322.1? Overweight triple axle …kg. Class A Highway– liftable axle lifted? 116(1)(d)? $200.00 ? Schedule A
+322.2? Overweight triple axle …kg. Class A Highway– liftable axle deployed improperly? 116(1)(d)? $200.00 ? Schedule A
+323? Overweight dual axle (single tires) …kg. Class A Highway? 116(2)? 0? Schedule A
+323.1? Overweight dual axle (single tires) …kg. Class A Highway– liftable axle lifted? 116(2)? $200.00 ? Schedule A
+323.2? Overweight dual axle (single tires) …kg. Class A Highway– liftable axle deployed improperly? 116(2)? $200.00 ? Schedule A
+324? Overweight triple axle (single tires) … kg.Class A Highway? 116(3)? 0? Schedule A
+324.1? Overweight triple axle (single tires) …kg. Class A Highway– liftable axle lifted? 116(3)? $200.00 ? Schedule A
+324.2? Overweight triple axle (single tires) …kg. Class A Highway– liftable axle deployed improperly? 116(3)? $200.00 ? Schedule A
+325? Overweight single front axle … kg. No verification. Class A Highway? 116(4)? 0? Schedule A
+325.1? Overweight single front axle …kg. No verification. Class A Highway- liftable axle lifted? 116(4)? $200.00 ? Schedule A
+325.2? Overweight single front axle …kg. No verification. Class A Highway– liftable axle deployed improperly? 116(4)? $200.00 ? Schedule A
+326? Overweight single front axle… kg. Exceed rating. Class A Highway? 116(4)? 0? Schedule A
+326.1? Overweight single front axle …kg. Exceed rating. Class A Highway– liftable axle lifted? 116(6)? $200.00 ? Schedule A
+326.2? Overweight single front axle …kg. Exceed rating. Class A Highway– liftable axle deployed improperly? 116(6)? $200.00 ? Schedule A
+327? Overweight two axle group … kg.Class A Highway? 117(a)? 0? Schedule A
+327.1? Overweight two axle group …kg. Class A Highway– liftable axle lifted? 117(1)(a)? $200.00 ? Schedule A
+327.2? Overweight two axle group …kg. Class A Highway– liftable axle deployed improperly? 117(1)(a)? $200.00 ? Schedule A
+328? Overweight three axle group … kg. Class A Highway? 117(1)(b)? 0? Schedule A
+328.1? Overweight three axle group …kg. Class A Highway– liftable axle lifted? 117(1)(b)? $200.00 ? Schedule A
+328.2? Overweight three axle group …kg. Class A Highway– liftable axle deployed improperly? 117(1)(b)? $200.00 ? Schedule A
+329? Overweight four axle group …kg. Class A Highway? 117(1)(c)? 0? Schedule A
+329.1? Overweight four axle group …kg. Class A Highway- liftable axle lifted? 117 (1) (c)? $200.00 ? Schedule A
+329.2? Overweight four axle group …kg. Class A Highway- liftable axle deployed improperly? 117 (1) (c)? $200.00 ? Schedule A
+330? Overweight vehicle … kg. Class A Highway? 118? 0? Schedule A
+330.1? Overweight vehicle …kg. Class A Highway- liftable axle lifted? 118? $200.00 ? Schedule A
+330.2? Overweight vehicle …kg. Class A Highway- liftable axle deployed improperly? 118? $200.00 ? Schedule A
+331? Overweight during freeze-up …kg.? 119(4)? 0? Schedule A
+331.1? Overweight vehicle during freeze-up kg. - liftable axle lifted? 119(4)? $200.00 ? Schedule A
+331.2? Overweight vehicle during freeze-up kg. - liftable axle deployed improperly? 119(4)? $200.00 ? Schedule A
+420? Pedestrian disobey red light? 144(25)? 35? 
+421? Pedestrian disobey amber light? 144(25)? 35? 
+422? Pedestrian disobey 'don’t walk' signal? 144(27)? 35? 
+423? Disobey portable amber lightfail to stop? 146(3)? 150? 
+423.1? Disobey portable amber light - fail to stop - community safety zone? 146(3)? 300? 
+424? Disobey portable red light - fail to stop? 146(4)? 260? 
+424.1? Disobey portable red light - fail to stop - community safety zone? 146(4)? 400? 
+425? Disobey portable red light - proceed before green? 146(4)? 260? 
+425.1? Disobey portable red light - proceed before green - community safety zone? 146(4)? 400? 
+428.1? Remove portable lane control signal system community safety zone? 146(6)? 150? 
+431? Fail to keep right when driving at less than normal speed? 147(1)? 150? 
+431.1? Fail to keep right when driving at less than normal speed - community safety zone? 147(1)? 300? 
+433? Fail to turn out to right when overtaken? 148(2)? 150? 
+433.1? Fail to turn out to right when overtaken - community safety zone? 148(2)? 300? 
+439.3? Fail to leave one metre while passing bicycle - community safety zone? 148(6.1)? 150? 
+442.1? Pass - roadway not clear - approaching traffic - community safety zone? 148(8)(a)? 150? 
+443.1? Attempt to pass - roadway not clear - approaching traffic - community safety zone? 148(8)(a)? 150? 
+444.1? Pass - roadway not clear - overtaking traffic - community safety zone? 148(8)(b)? 150? 
+445.1? Attempt to pass - roadway not clear - overtaking traffic - community safety zone? 148(8)(b)? 150? 
+445.2? Improperly pass snow plow? 148.1(1)? 325? 
+446.1? Drive left of centre - approaching crest of grade - community safety zone? 149(1)(a)? 150? 
+447.1? Drive left of centre - on a curve community safety zone? 149(1)(a)? 150? 
+448.1? Drive left of centre within 30 m of bridge - no clear view community safety zone? 149(1)(a)? 150? 
+449.1? Drive left of centre within 30 m of viaduct - no clear view community safety zone? 149(1)(a)? 150? 
+450.1? Drive left of centre within 30 m of tunnel - no clear view -community safety zone? 149(1)(a)? 150? 
+452? Drive left of centre within 30 m of level railway crossing - community safety zone? 149(1)(b)? 150? 
+453.1? Pass on right - not in safety -community safety zone? 150(1)? 150? 
+454.1? Pass - off roadway - community safety zone? 150(2)? 150? 
+456.1? Drive wrong way - one way traffic community safety zone? 153? 150? 
+458? Unsafe move – lane or shoulder – community safety zone? 154(1)(a)? 150? 
+460.4? Driver in border approach lane - fail to stop? 154.2(4)? 150? 
+461.1? Drive wrong way - divided highway community safety zone? 156(1)(a)? 150? 
+465? Fail to stop on right for emergency vehicle? 159(1)(a)? 400? 
+466? Fail to stop - nearest curb -for emergency vehicle? 159(1)(b)? 400? 
+467? Fail to stop - nearest edge of roadway - for emergency vehicle? 159(1)(b)? 400? 
+468? Fail to slow down and proceed with caution for emergency vehicle or tow truck? 159(2)? 400? 
+468.1? Fail to move into another lane for emergency vehicle or tow truck - if safe to do? 159(3)? 400? 
+468.2? Follow fire department vehicle too closely? 159(4)? 400? 
+473.1? Disobey railway crossing signal - stop at wrong place - community safety zone? 163(1)? 150? 
+474.1? Disobey railway crossing signal -fail to stop - community safety zone? 163(1)? 150? 
+475.1? Disobey railway crossing signal - proceed unsafely - community safety zone? 163(1)? 150? 
+475.3? Disobey stop sign at railway crossing - stop at wrong place - community safety zone? 163(2)? 150? 
+475.5? Disobey stop sign at railway crossing - fail to stop - community safety zone? 163(2)? 150? 
+475.7? Disobey stop sign at railway crossing - proceed unsafely - community safety zone? 163(2)? 150? 
+476.1? Disobey crossing gate - community safety zone? 164? 150? 
+477? Open vehicle door improperly? 165((1)(a)? 300? 
+478? Leave vehicle door open? 165(1)(b)? 300? 
+479.1? Pass street car improperly -community safety zone? 166(1)? 150? 
+480.1? Approach open street car door too closely - community safety zone? 166(1)? 150? 
+486? Fail to take precaution against vehicle being set in motion? 170(9)? 50? 
+487? Fail to have warning lights? 170(10)(a)? 50? 
+488? Fail to use warning lights? 170(11)? 50? 
+489? Interfere with traffic? 170(12)? 50? 
+490? Interfere with snow removal? 170(12)? 50? 
+507.5? Fail to stop for school bus - signal lights - meeting? 175(11)? 400? 
+507.6? Fail to stop for school bus - stop arm - meeting? 175(11.1)? 400? 
+507.7? Fail to stop for school bus - signal lights - overtaking? 175(12)? 400? 
+507.8? Fail to stop for school bus - stop arm - overtaking? 175(12.1)? 400? 
+507.9? Fail to stop at least 20 metres behind school bus? 175(12.2)? 400? 
+507.11? Fail to stop for school bus - owner? 175(19.1)? 400? 
+507.12? Fail to stop for school bus - owner? 175(20)? 400? 
+507.13? Fail to stop for school bus - owner? 175(20.1)? 400? 
+509? Fail to obey school crossing stop sign? 176(3)? 300? 
+509.1? Fail to obey school crossing stop sign - community safety zone? 176(3)? 600? 
+512? Solicit a ride? 177(1)? 50? 
+513? Solicit business? 177(2)? 50? 
+518? Person - attach to vehicle? 178(4)? 35? 
+519? Person - attach to streetcar? 178(4)? 35? 
+520? Pedestrian fail to walk on left side of highway? 179? 35? 
+521? Pedestrian on roadway fail to keep to left edge? 179? 35? 
+526? Wilfully interfere with highway fixture? 184? 250? 
+Item 527 of Schedule 43 to Reg. 950 has been revoked.? Item 527 of Schedule 43 to Reg. 950 has been revoked.? Item 527 of Schedule 43 to Reg. 950 has been revoked.? Item 527 o? Schedule 43 to Reg. 950 has been revoked.
+Item 528 of Schedule 43 to Reg. 950 has been revoked.? Item 528 of Schedule 43 to Reg. 950 has been revoked.? Item 528 of Schedule 43 to Reg. 950 has been revoked.? Item 528 o? Schedule 43 to Reg. 950 has been revoked.
+Item 529 of Schedule 43 to Reg. 950 has been revoked.? Item 529 of Schedule 43 to Reg. 950 has been revoked.? Item 529 of Schedule 43 to Reg. 950 has been revoked.? Item 529 o? Schedule 43 to Reg. 950 has been revoked.
+Item 530 of Schedule 43 to Reg. 950 has been revoked.? Item 530 of Schedule 43 to Reg. 950 has been revoked.? Item 530 of Schedule 43 to Reg. 950 has been revoked.? Item 530 o? Schedule 43 to Reg. 950 has been revoked.
+Item 531 of Schedule 43 to Reg. 950 has been revoked.? Item 531 of Schedule 43 to Reg. 950 has been revoked.? Item 531 of Schedule 43 to Reg. 950 has been revoked.? Item 531 o? Schedule 43 to Reg. 950 has been revoked.
+536.1? Drive road-building machine not in accordance with the regulations? 189.1 (1)? 310? 
+536.2? Permit operation of road-building machine not in accordance with the regulations? 189.1 (1)? 310? 
+537? Fail to maintain daily log? 190(3)? 320? 
+538? Fail to carry daily log? 190(3)? 320? 
+539? Fail to surrender daily log? 190(4)? 320? 
+540? Driver in possession of more than one daily log? 190(5)? 320? 
+540.1.1? Drive commercial motor vehicle contrary to prohibition? 190 (6.2)? 500? 
+540.1.2? Permit driving of commercial motor vehicle contrary to prohibition? 190 (6.2)? 500? 
+544.1? Insurer fail to notify Registrar as prescribed re irreparable or salvage vehicle? 199.1(4)? 400? 
+544.2? Specified person ail to notify Registrar as prescribed re irreparable or salvage vehicle? 199.1(5)? 400? 
+544.3? Misclassify vehicle as irreparable or salvage in notice to Registrar? 199.1(7)? 400? 
+544.4? Fail to notify permit holder as prescribed re irreparable or salvage vehicle? 199.1(8)? 400? 
+544.5? Fail to return permit or portion of permit for irreparable or salvage vehicle to Registrar as prescribed? 199.1(19)? 400? 
+544.6? Drive or draw irreparable or salvage vehicle? 199.1(19)? 140? 
+544.7? Permit irreparable or salvage vehicle to be driven or drawn? 199.1(19)? 140? 
+546? Fail to render assistance? 200(1)(b)? ? S.F
+553? Fail to surrender suspended driver’s licence? 212(2)? 60? 
+554? Refuse to surrender suspended driver’s licence? 212(2)? 60? 
+554.0.1? Fail to assist in examination of commercial vehicle? 216.1(1)? 310? 
+554.0.2? Fail to stop commercial vehicle for examination? 216.1(2)? 310? 
+554.0.3? Fail to surrender documents? 216.1(3)? 310? 
+554.0.4? Fail to furnish information? 216.1(3)? 310? 
+554.0.5? Fail to comply with direction of officer? 216.1(7)? 310? 
+555? Obstruct officer? 225(5)? 260? 
+556? Withhold record? 225(5)? 260? 
+557? Conceal record? 225(5)? 260? 
+558? Destroy record? 225(5)? 260? 

@@ -1,3 +1,6 @@
+/* Authors: David Barrios, Paul Jordan, Can Tarhan, Alexander Gutierrez
+   Date: 05 - November - 2023 */
+
 * {
     box-sizing: border-box;
 }
@@ -5,8 +8,18 @@
 body {
     font-size: 1.17em;
     font-weight: 500;
-    font-family: "Titillium Web", sans-serif;
+    font-family: 'Cascadia Code';
     background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#heading_msg {
+    width: 600px;
+    margin: auto;
 }
 
 #offence_desc span {
@@ -16,6 +29,7 @@ body {
 form {
     max-width: 500px;
     margin: auto;
+    font-family: "Titillium Web", sans-serif;
 }
 
 form label {
@@ -32,15 +46,16 @@ input {
     border-radius: 4px;
     box-shadow: 2px 2px 7px 0 rgb(0, 0, 0, 0.2);
     outline: none;
-    color: rgb(129, 129, 129);
+
     margin-bottom: 1.5em;
 }
 
 input+span {
     color: red;
     margin-left: 0.5em;
-    font-family: 'Times New Roman', Times, serif;
     position: absolute;
+    display: inline;
+    font-size: 0.75em
 }
 
 #info_validity {
@@ -62,7 +77,7 @@ input+span {
     align-items: center;
 }
 
-div p {
+#info_validity p {
     color: whitesmoke;
     display: none;
 }
@@ -94,10 +109,11 @@ img {
     background-color: rgb(172, 171, 171);
 }
 
-#outputWrapper {
+.output {
     display: none;
     max-width: 500px;
     margin: auto;
+    font-family: monospace;
 }
 
 #outputWrapper label {
@@ -105,4 +121,60 @@ img {
     width: 50%;
     text-align: left;
     margin-bottom: 0.5em;
+}
+
+h2 {
+    margin: 0;
+}
+
+.mobile {
+    display: none;
+    color: red;
+    font-size: 0.7em;
+}
+
+@media screen and (max-width: 665px) {
+    form {
+        padding: 0 0.3em;
+    }
+
+    form label {
+        width: 100%;
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        display: block;
+        margin: 0
+    }
+
+    p {
+        text-align: center;
+    }
+
+    #info_validity div {
+        font-size: 0.75em;
+    }
+
+    pre {
+        text-wrap: wrap;
+    }
+
+    .mobile {
+        display: block;
+        margin-bottom: 0.2em;
+    }
+
+    input+span {
+        display: none;
+    }
+
+    #btn_validate {
+        margin-bottom: 3em;
+    }
+
+    #heading_msg {
+        width: 100%;
+    }
 }
