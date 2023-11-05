@@ -18,7 +18,7 @@ const generateHeading = function () {
 
     $('#offence_desc span').each(function (index) {
         let that = this;
-        let t = setTimeout(function () {
+        setTimeout(function () {
             $(that).css('display', 'inline');
         }, 50 * index);
     });
@@ -74,8 +74,9 @@ const animateValidation = function () {
             let image = validity ? "../img/check_mark.png" : "../img/check_mark_fail.png";
 
             let that = this;
+
             $(that).find('img').attr('src', image);
-            let t = setTimeout(function () {
+            setTimeout(function () {
                 $(that).find('p').css('display', 'block');
                 $(that).animate({ 'background-color': background, 'width': '100%' }, 1000);
                 $(that).find('img').animate({ 'width': '20px', 'height': '20px' }, 1000);
