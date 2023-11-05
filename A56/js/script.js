@@ -911,7 +911,7 @@ const driverPermitValid = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const driverInsuranceValid = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const seatBelt = Math.random() * (driverLicenseValid ? 1.5 : 1) > 0.5;
 const row = offences[Math.floor(Math.random()*offences.length) ];
-var placeHolder = "____-_____-_____";
+var placeHolder = "_____-_____-_____";
 var lnumber = "";
 
 
@@ -996,7 +996,7 @@ function editLNumber (event) {
                 } catch (error) {
             }}
         }
-        $("#lnumber").val(lnumber + placeHolder.substring(lnumber.length - 1));
+        lnumber.length == 0 ? $("#lnumber").val() : $("#lnumber").val(lnumber + placeHolder.substring(lnumber.length));
     } else {
         $("#lnumber").val(lnumber);
     }
