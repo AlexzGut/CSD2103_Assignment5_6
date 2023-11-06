@@ -122,11 +122,10 @@ let licenseNumber = "";
 function formatLicenseNumber(event) {
     const SEPARATOR = ' - ';
     const PLACE_HOLDER = '_____' + SEPARATOR + '_____' + SEPARATOR + '_____';
-
+    
     if (licenseNumber.length < PLACE_HOLDER.length || !event.data) {
         if (licenseNumber.length == $("#driver_license").val().indexOf(SEPARATOR, licenseNumber.length)) {
             licenseNumber += SEPARATOR;
-            spaces = licenseNumber.length + SEPARATOR.length;
         }
         if (event.data) {
             licenseNumber += event.data;
@@ -142,6 +141,9 @@ function formatLicenseNumber(event) {
     } else {
         $("#driver_license").val(licenseNumber.toUpperCase());
     }
+    let spaces = licenseNumber.length == $("#driver_license").val().indexOf(SEPARATOR, licenseNumber.length) &&
+                (event.data) ? licenseNumber.length + SEPARATOR.length : licenseNumber.length;
+    document.getElementById('driver_license').setSelectionRange(spaces, spaces)
 };
 
 /* reload the webpage to process a new ticket */
