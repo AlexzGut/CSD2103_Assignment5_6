@@ -13,10 +13,10 @@ const getOffence = function (json) {
 
 /* Generates the heading of the webpage by surrounding each letter with <span></span>, and Prints the heading of the web page one letter at a time with an interval of 25milliseconds */
 const generateHeadingMsg = function () {
-    const heading = 'Hello, this is Computer Programmer Group 1 Ontario Provincial Police, we have pulled you over because you violates the law number ' + getOffence(json_str);
+    const HEADING = 'Hello, this is Computer Programmer Group 1 Ontario Provincial Police, we have pulled you over because you violates the law number ' + getOffence(json_str);
     let HTMLheading = "";
-    for (let i = 0; i < heading.length; i++) {
-        HTMLheading += "<span>" + heading.charAt(i) + "</span>";
+    for (let i = 0; i < HEADING.length; i++) {
+        HTMLheading += "<span>" + HEADING.charAt(i) + "</span>";
     }
     $('#offence_desc').html(HTMLheading);
 
@@ -38,16 +38,17 @@ const validateInput = function () {
     let isInputValid = true;
     if ($('#driver_name').val() == "") {
         $('.driver_name_error').html('This field is required');
+        $("#driver_name").focus();
         isInputValid = false;
     } else {
         $('.driver_name_error').html('');
     }
 
-    if (lnumber.length < 17) {
+    if (licenseNumber.length < 21) {
         $('.driver_license_error').html('Must be 15 digits long');
         isInputValid = false;
 
-        if (lnumber.length == 0) {
+        if (licenseNumber.length == 0) {
             $('.driver_license_error').html('This field is required');
             isInputValid = false;
         }
@@ -117,30 +118,29 @@ Total Fine: $ ${(fine + driverLicenseFine + driverPermitFine + driverInsuranceFi
 
 /* used in the Driver's License textBox to format the user input as '_____ - _____ - _____' in real time, and show it in the textBox
    it is the event handler of an input event. */
-let lnumber = "";
+let licenseNumber = "";
 function formatLicenseNumber(event) {
-    console.log('qweqwe');
-    const placeHolder = "_____ - _____ - _____";
-    if (lnumber.length <= 20 || !event.data) {
-        if (lnumber.length == 5 || lnumber.length == 13) {
-            lnumber += " - ";
+    const SEPARATOR = ' - ';
+    const PLACE_HOLDER = '_____' + SEPARATOR + '_____' + SEPARATOR + '_____';
+
+    if (licenseNumber.length < PLACE_HOLDER.length || !event.data) {
+        if (licenseNumber.length == $("#driver_license").val().indexOf(SEPARATOR, licenseNumber.length)) {
+            licenseNumber += SEPARATOR;
+            spaces = licenseNumber.length + SEPARATOR.length;
         }
         if (event.data) {
-            lnumber += event.data;
+            licenseNumber += event.data;
         } else {
-            if (lnumber.length == 8 || lnumber.length == 16) {
-                lnumber = lnumber.substring(0, lnumber.length - 4);
+            if (licenseNumber.length == $("#driver_license").val().lastIndexOf(SEPARATOR, licenseNumber.length) + SEPARATOR.length) {
+                licenseNumber = licenseNumber.substring(0, licenseNumber.length - (SEPARATOR.length + 1));
             } else {
-                try {
-                    lnumber = lnumber.substring(0, lnumber.length - 1);
-                } catch (error) {
-                    console.log(error.message);
-                }
+                licenseNumber = licenseNumber.substring(0, licenseNumber.length - 1);
             }
         }
-        $("#driver_license").val((lnumber.length == 0 ? "" : lnumber + placeHolder.substring(lnumber.length)).toUpperCase());
+        $("#driver_license").val((licenseNumber.length == 0 ? "" : licenseNumber + PLACE_HOLDER.substring(licenseNumber.length)).toUpperCase());
+        
     } else {
-        $("#driver_license").val(lnumber.toUpperCase());
+        $("#driver_license").val(licenseNumber.toUpperCase());
     }
 };
 
@@ -153,5 +153,6 @@ $(function () {
     generateHeadingMsg();
     $('#btn_validate').on('click', animateValidation);
     $('#new_offence').on('click', newOffence);
+    $("#driver_name").focus();
 });
 
