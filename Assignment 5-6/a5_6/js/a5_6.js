@@ -109,14 +109,16 @@ function printTicket() {
 
     overSpeedLimitFine = overSpeedLimitFineRate ? randomSpeedOver * overSpeedLimitFineRate : 0;
 
-    $("#outputWrapper").html(`<p>After further investigation we have noticed that you violates the law number ${offenceStr}</p><h2>Ticket Summary</h2><pre>Date: ${date.toDateString()}
+    $("#outputWrapper").html(`<p>After further investigation we have noticed that you violates the law number ${offenceStr}</p>
+<h2>Ticket Summary</h2>
+<pre>Date: ${date.toDateString()}
 Name: ${$("#driver_name").val()} 
 Ticket No: ${Math.round((Math.random() * 9999999) + 1000000)}
 License No: ${$("#driver_license").val()}
-Speeding Fine: ${overSpeedLimitFine != 0 ? '$ overSpeedLimitFine.toFixed(2)' : 'No out of court settlement'}
+Speeding Fine: ${overSpeedLimitFine != 0 ? `$ ${overSpeedLimitFine.toFixed(2)}` : 'No out of court settlement'}
 Found Offense: ${offence.offence}
 Section: ${offence.section}
-Fine: $ ${fine.toFixed(2)}
+Fine: ${fine != 0 ? `$ ${fine.toFixed(2)}` : 'N/A'}
 Other Fines:</pre>
 <ul>
 <li>Driver License Not Valid: $ ${driverLicenseFine.toFixed(2)}</li>
@@ -125,7 +127,7 @@ Other Fines:</pre>
 <li>Seat Belt Unfastened: $ ${seatBeltFine}</li>
 </ul>
 <pre>
-Court appearance: ${offence.fine == "N.S.F." || isNaN(overSpeedLimitFine) ? "Yes" : "No"}
+Court appearance: ${offence.fine == "N.S.F." || overSpeedLimitFine == 0 ? "Yes" : "No"}
 Total Fine: $ ${(overSpeedLimitFine + fine + driverLicenseFine + driverPermitFine + driverInsuranceFine + seatBeltFine).toFixed(2)}.
 </pre>`);
     $('.output').slideDown(function () { window.location = "#outputWrapper"; });
@@ -152,10 +154,11 @@ function formatLicenseNumber(event) {
             }
         }
         $("#driver_license").val((licenseNumber.length == 0 ? "" : licenseNumber + PLACE_HOLDER.substring(licenseNumber.length)).toUpperCase());
-        
     } else {
         $("#driver_license").val(licenseNumber.toUpperCase());
     }
+    // hide or show the text input cursor of the driver license TextBox.
+    $("#driver_license").css(licenseNumber.length != 0 ? {'caret-color' : 'transparent'} : {'caret-color' : 'black'});
 };
 
 /* reload the webpage to process a new ticket */
