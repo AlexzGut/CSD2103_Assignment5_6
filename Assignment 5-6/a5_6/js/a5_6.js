@@ -4,16 +4,18 @@
 // We have accessed the property offence in the JSON, containing an array with all the offences and its data
 const OffenceValidations = [];
 let offence;
+let randomSpeedOver = Math.floor((Math.random() * 71) + 1);
 const getOffence = function (json) {
     const offences = JSON.parse(json); // JSON.parse has been used to convert the string into an JavaScript Object.
     randomIndex = Math.floor(Math.random() * offences.offences.length); // an index in the array is selected randomly.
     offence = offences.offences[randomIndex];
-    return offence.item + " " + offence.offence + " " + offence.section + ".";
+    return offence.item + ": " + offence.offence + " " + offence.section + ".";
 };
 
 /* Generates the heading of the webpage by surrounding each letter with <span></span>, and Prints the heading of the web page one letter at a time with an interval of 25milliseconds */
 const generateHeadingMsg = function () {
-    const HEADING = 'Hello, this is Computer Programmer Group 1 Ontario Provincial Police, we have pulled you over because you violates the law number ' + getOffence(json_str);
+    const HEADING = `Hello, this is Computer Programmer Group 1 Ontario Provincial Police, we have pulled you over because
+you were exceeding the speed limit over ${randomSpeedOver} Km/h.`;
     let HTMLheading = "";
     for (let i = 0; i < HEADING.length; i++) {
         HTMLheading += "<span>" + HEADING.charAt(i) + "</span>";
@@ -88,18 +90,31 @@ const animateValidation = function () {
 
 /* prints a ticket, with all the data gathered from the user and randomly gathered form the JSON */
 function printTicket() {
+    let offenceStr = getOffence(json_str);
     const date = new Date(Date.now());
     const fine = isNaN(offence.fine) ? 0 : parseFloat(offence.fine);
     const driverLicenseFine = OffenceValidations[0] ? 0 : 85;
-    const driverPermitFine = OffenceValidations[1] ? 0 : 100;
-    const driverInsuranceFine = OffenceValidations[2] ? 0 : 50;
+    const driverPermitFine = OffenceValidations[1] ? 0 : 200;
+    const driverInsuranceFine = OffenceValidations[2] ? 0 : 85;
     const seatBeltFine = OffenceValidations[3] ? 0 : 200;
+    let overSpeedLimitFine;
+    let overSpeedLimitFineRate;
+    if (randomSpeedOver <= 19) {
+        overSpeedLimitFineRate = 2.5;
+    } else if (randomSpeedOver <= 29) {
+        overSpeedLimitFineRate = 3.75;
+    } else if (randomSpeedOver <= 49) {
+        overSpeedLimitFineRate = 6.00;
+    }
 
-    $("#outputWrapper").html(`<h2>Ticket Summary</h2><pre>Date: ${date.toDateString()}
+    overSpeedLimitFine = overSpeedLimitFineRate ? randomSpeedOver * overSpeedLimitFineRate : 0;
+
+    $("#outputWrapper").html(`<p>After further investigation we have noticed that you violates the law number ${offenceStr}</p><h2>Ticket Summary</h2><pre>Date: ${date.toDateString()}
 Name: ${$("#driver_name").val()} 
 Ticket No: ${Math.round((Math.random() * 9999999) + 1000000)}
 License No: ${$("#driver_license").val()}
-Offense: ${offence.offence}
+Speeding Fine: ${overSpeedLimitFine != 0 ? '$ overSpeedLimitFine.toFixed(2)' : 'No out of court settlement'}
+Found Offense: ${offence.offence}
 Section: ${offence.section}
 Fine: $ ${fine.toFixed(2)}
 Other Fines:</pre>
@@ -110,8 +125,8 @@ Other Fines:</pre>
 <li>Seat Belt Unfastened: $ ${seatBeltFine}</li>
 </ul>
 <pre>
-Court appearance: ${offence.fine == "N.S.F." ? "Yes" : "No"}
-Total Fine: $ ${(fine + driverLicenseFine + driverPermitFine + driverInsuranceFine + seatBeltFine).toFixed(2)}.
+Court appearance: ${offence.fine == "N.S.F." || isNaN(overSpeedLimitFine) ? "Yes" : "No"}
+Total Fine: $ ${(overSpeedLimitFine + fine + driverLicenseFine + driverPermitFine + driverInsuranceFine + seatBeltFine).toFixed(2)}.
 </pre>`);
     $('.output').slideDown(function () { window.location = "#outputWrapper"; });
 };
@@ -141,9 +156,6 @@ function formatLicenseNumber(event) {
     } else {
         $("#driver_license").val(licenseNumber.toUpperCase());
     }
-    let spaces = licenseNumber.length == $("#driver_license").val().indexOf(SEPARATOR, licenseNumber.length) &&
-                (event.data) ? licenseNumber.length + SEPARATOR.length : licenseNumber.length;
-    document.getElementById('driver_license').setSelectionRange(spaces, spaces)
 };
 
 /* reload the webpage to process a new ticket */
