@@ -124,7 +124,7 @@ Other Fines:</pre>
 <li>Driver License Not Valid: $ ${driverLicenseFine.toFixed(2)}</li>
 <li>Driver Permit Not Valid: $ ${driverPermitFine.toFixed(2)}</li>
 <li>Driver Insurance Not Valid: $ ${driverInsuranceFine.toFixed(2)}</li>
-<li>Seat Belt Unfastened: $ ${seatBeltFine}</li>
+<li>Seat Belt Unfastened: $ ${seatBeltFine.toFixed(2)}</li>
 </ul>
 <pre>
 Court appearance: ${offence.fine == "N.S.F." || overSpeedLimitFine == 0 ? "Yes" : "No"}
