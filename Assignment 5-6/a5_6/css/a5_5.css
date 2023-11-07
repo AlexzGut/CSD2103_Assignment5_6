@@ -22,6 +22,10 @@ h1 {
     margin: auto;
 }
 
+#offence_desc {
+    text-align: justify;
+}
+
 #offence_desc span {
     display: none;
 }
@@ -131,6 +135,10 @@ h2 {
     display: none;
     color: red;
     font-size: 0.7em;
+}
+
+pre {
+    text-wrap: wrap;
 }
 
 @media screen and (max-width: 665px) {
